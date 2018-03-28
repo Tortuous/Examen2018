@@ -6,16 +6,49 @@ using UnityEngine.UI;
 public class CountDown : MonoBehaviour {
     public Text timer;
     public Text textCount;
+    public string timerFormatted;
+    private float elapsedTime;
 
-    float time = 3f;
+    float timeDown = 3f;
     string textVisual;
 
 	void Start () {
-        //timer.text = time.toString();
+        Time.timeScale = 0.9f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+
+        StartCountDown();
+    }
+
+    private void StartCountDown()
+    {
+        if (timeDown > 0)
+        {
+            if (timeDown > 2)
+            {
+                textVisual = "READY?";
+            }
+            else if (timeDown < 2 && timeDown > 0.5f)
+            {
+                textVisual = "SET!";
+            }
+            else
+            {
+                textVisual = "GO!";
+            }
+            textCount.text = textVisual;
+            timeDown -= Time.deltaTime;
+            System.TimeSpan t = System.TimeSpan.FromSeconds(timeDown);
+            timerFormatted = string.Format("{0:D1}.{1:D2}", t.Seconds, t.Milliseconds);
+            timer.text = timerFormatted;
+        }
+        else
+        {
+            timer.text = "0.00";
+            gameObject.SetActive(false);
+            Time.timeScale = 1f;
+        }
+    }
 }

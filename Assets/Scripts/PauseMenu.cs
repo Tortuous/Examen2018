@@ -7,7 +7,7 @@ public class PauseMenu : MonoBehaviour {
     public GameObject pauseMenuUI;
     public GameObject controls;
 
-    private Vector3 posHold;
+    //private Vector3 posHold;
 
     static string mainmenu = "titlescreen";
 
