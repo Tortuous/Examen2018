@@ -8,13 +8,13 @@ public class PlayerController : MonoBehaviour {
     public float jumpForce;
     public Animator animator;
 
-    float InputX;
-    float InputY;
+    bool isGrounded = true;
     const float locoST = .1f;
-
+    public float InputX;
+    public float InputY;
     int maxJumps = 2;
     int jumps;
-    bool isGrounded = true;
+    Vector3 movement;
 
     void Update ()
     {
@@ -23,10 +23,12 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("InputY", InputY, locoST, Time.deltaTime);
         animator.SetFloat("InputX", InputX, locoST, Time.deltaTime);
         animator.SetBool("isGrounded", isGrounded);
+        
+        transform.Translate(InputX * Time.deltaTime * speed, 0, 0, Space.World);
 
-
-        transform.Translate(InputX * Time.deltaTime * speed, 0, 0);
-
+        movement = new Vector3(InputX, 0, 0);
+        transform.rotation = Quaternion.LookRotation(-movement);
+        
         if (Input.GetButtonDown("Jump"))
         {
             Jump();
@@ -37,6 +39,7 @@ public class PlayerController : MonoBehaviour {
     {
         if(jumps > 0)
         {
+            Debug.Log("Jumped once");
             gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0, jumpForce));
             isGrounded = false;
             jumps = jumps - 1;
