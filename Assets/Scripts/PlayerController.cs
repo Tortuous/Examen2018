@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
     public Animator animator;
 
     bool isGrounded = true;
+    bool Attacking = false;
     const float locoST = .1f;
     public float InputX;
     public float InputY;
@@ -25,13 +26,48 @@ public class PlayerController : MonoBehaviour {
         animator.SetBool("isGrounded", isGrounded);
         
         transform.Translate(InputX * Time.deltaTime * speed, 0, 0, Space.World);
-
         movement = new Vector3(InputX, 0, 0);
         transform.rotation = Quaternion.LookRotation(-movement);
         
         if (Input.GetButtonDown("Jump"))
         {
             Jump();
+        }
+
+        if (Input.GetButtonDown("Attack"))
+        {
+            Attack();
+        }
+
+        if (Input.GetButtonDown("Shoot"))
+        {
+            Shoot();
+        }
+    }
+
+    void Attack()
+    {
+        if (!Attacking)
+        {
+            Attacking = true;
+            animator.SetBool("Attacking", Attacking);
+        }
+        else
+        {
+            return;
+        }
+    }
+
+    void Shoot()
+    {
+        if (!Attacking)
+        {
+            Attacking = true;
+            animator.SetBool("Attacking", Attacking);
+        }
+        else
+        {
+            return;
         }
     }
 
