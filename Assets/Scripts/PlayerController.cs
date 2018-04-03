@@ -1,18 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class PlayerController : MonoBehaviour {
-    public float speed = 8f;
-    public float jumpForce;
-    public Animator animator;
-
-    bool isGrounded = true;
-    bool Attacking = false;
-    const float locoST = .1f;
     public float InputX;
     public float InputY;
+    public float speed = 6f;
+    public float jumpForce = 500f;
+    public Animator animator;
+    public Text score;
+
+    public List<GameObject> nearTarget = new List<GameObject>();
+
+    static public int targetCount = 0;
+    bool isGrounded = true;
+    bool Attacking = false;
+    bool Shooting = false;
+    const float locoST = .1f;
     int maxJumps = 2;
     int jumps;
     Vector3 movement;
@@ -24,11 +30,16 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("InputY", InputY, locoST, Time.deltaTime);
         animator.SetFloat("InputX", InputX, locoST, Time.deltaTime);
         animator.SetBool("isGrounded", isGrounded);
-        
+        animator.SetBool("Attacking", Attacking);
+        animator.SetBool("Shooting", Shooting);
+        Attacking = false;
+        Shooting = false;
         transform.Translate(InputX * Time.deltaTime * speed, 0, 0, Space.World);
         movement = new Vector3(InputX, 0, 0);
         transform.rotation = Quaternion.LookRotation(-movement);
-        
+
+        score.text = targetCount.ToString();
+
         if (Input.GetButtonDown("Jump"))
         {
             Jump();
@@ -44,26 +55,36 @@ public class PlayerController : MonoBehaviour {
             Shoot();
         }
     }
-
+    // controls edit
     void Attack()
     {
-        if (!Attacking)
+        if (!Attacking && nearTarget.Count != 0)
         {
+            Debug.Log("Hit");
             Attacking = true;
-            animator.SetBool("Attacking", Attacking);
+            targetCount++;
+            for(int i = 0; i > 0; i--)
+            {
+                nearTarget[i].SetActive(false);
+            }
+        }
+        else if(!Attacking && nearTarget.Count == 0)
+        {
+            Debug.Log("Attacked , but missed");
+            Attacking = true;
         }
         else
         {
             return;
         }
+        
     }
 
     void Shoot()
     {
-        if (!Attacking)
+        if (!Shooting)
         {
-            Attacking = true;
-            animator.SetBool("Attacking", Attacking);
+            Shooting = true;
         }
         else
         {
@@ -83,6 +104,22 @@ public class PlayerController : MonoBehaviour {
         else
         {
             return;
+        }
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "target")
+        {
+            nearTarget.Add(col.gameObject);
+        }
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        if (col.gameObject.tag == "target")
+        {
+            nearTarget.Remove(col.gameObject);
         }
     }
 
