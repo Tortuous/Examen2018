@@ -7,15 +7,18 @@ public class CountDown : MonoBehaviour {
     public Text timer;
     public Text textCount;
     public string timerFormatted;
-    public GameObject controls;
+    public List<GameObject> controls = new List<GameObject>();
 
     float elapsedTime;
     float timeDown = 3f;
     string textVisual;
 
 	void Start () {
-        Time.timeScale = 0.9f;
-        controls.SetActive(false);
+        //Time.timeScale = 0.9f;
+        foreach (GameObject player in controls)
+        {
+            player.SetActive(true);
+        }
 	}
 	
 	// Update is called once per frame
@@ -49,7 +52,10 @@ public class CountDown : MonoBehaviour {
         else
         {
             timer.text = "0.00";
-            controls.SetActive(true);
+            foreach (GameObject player in controls)
+            {
+                player.SetActive(true);
+            }
             Time.timeScale = 1f;
             gameObject.SetActive(false);
         }

@@ -40,7 +40,7 @@ public class PlayerMotor : MonoBehaviour {
         moveVector.y = verticalVelocity;
 
         controller.Move(moveVector * Time.deltaTime);
-        lastMove = moveVector;
+        //lastMove = moveVector;
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)

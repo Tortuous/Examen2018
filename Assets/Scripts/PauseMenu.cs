@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 //INGAME MENU
 public class PauseMenu : MonoBehaviour {
     public GameObject pauseMenuUI;
-    public GameObject controls;
+    public GameObject controlsP1;
+    public GameObject controlsP2;
     
     static bool GameIsPaused = false;
     string mainmenu = "titlescreen";
@@ -27,16 +28,18 @@ public class PauseMenu : MonoBehaviour {
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
-        controls.SetActive(true);
         GameIsPaused = false;
+        pauseMenuUI.SetActive(false);
+        controlsP1.SetActive(true);
+        controlsP2.SetActive(true);
     }
 
     public void Pause()
     {
-        pauseMenuUI.SetActive(true);
-        controls.SetActive(false);
         GameIsPaused = true;
+        pauseMenuUI.SetActive(true);
+        controlsP1.SetActive(false);
+        controlsP2.SetActive(false);
     }
 
     public void SwitchToMenu()

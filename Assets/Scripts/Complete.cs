@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Complete : MonoBehaviour {
     public GameObject CompletePanel;
-    public GameObject player;
+    public GameObject player1;
+    public GameObject player2;
     private static int tc;
 
 	// Use this for initialization
@@ -19,7 +20,8 @@ public class Complete : MonoBehaviour {
         if (tc >= 10)
         {
             CompletePanel.SetActive(true);
-            player.SetActive(false);
+            player1.SetActive(false);
+            player2.SetActive(false);
         }
 	}
 }
