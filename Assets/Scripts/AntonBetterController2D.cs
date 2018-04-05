@@ -28,7 +28,7 @@ public class AntonBetterController2D : MonoBehaviour
 
     void Update()
     {
-        InputX = Input.GetAxisRaw("Horizontal");
+        InputX = Input.GetAxisRaw("J2_MainHorizontal");
         isGrounded = motor.Grounded();
         movement = new Vector2(InputX, 0);
 
@@ -76,31 +76,30 @@ public class AntonBetterController2D : MonoBehaviour
         motor.SetVelocity(movement * speed * Time.deltaTime);
 
         // Jump
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump2"))
         {
             canWallStick = true;
             stickTimer = 0f;
             exitTimer = 0f;
             Jumpy();
         }
-
     }
 
     void Jumpy()
     {
-        if (isGrounded || !doubleJumped)
-        {
-            motor.ResetPhysics();
-            motor.ApplyForce(new Vector2(0, jumpForce));
-            doubleJumped = !isGrounded;
-        }
-        else if (huggingWall)
+        if (huggingWall)
         {
             motor.ResetPhysics();
             motor.ApplyForce(new Vector2(10, jumpForce));
             huggingWall = false;
             canWallStick = false;
             StartCoroutine(ResetWallStick());
+        }
+        else if (isGrounded || !doubleJumped)
+        {
+            motor.ResetPhysics();
+            motor.ApplyForce(new Vector2(0, jumpForce));
+            doubleJumped = !isGrounded;
         }
     }
 

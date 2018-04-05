@@ -13,12 +13,12 @@ public class PlayerController : MonoBehaviour {
     public Text score;
 
     public List<GameObject> nearTarget = new List<GameObject>();
-
     static public int targetCount = 0;
+
     bool isGrounded = true;
     bool Attacking = false;
     bool Shooting = false;
-    const float locoST = .1f;
+    const float locoST = .1f; // smoothing anims
     int maxJumps = 2;
     int jumps;
     Vector3 movement;

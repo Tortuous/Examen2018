@@ -6,10 +6,13 @@ using System.Collections.Generic;
 //MAINMENU
 
 public class MainMenu : MonoBehaviour {
-    public Vector3 position;
+    Vector3 position;
     public List<Button> buttons;
+    public GameObject mainmenuPanel;
+    public GameObject optionmenuPanel;
 
     static string game = "smashminigame";
+
     public void Awake()
     {
         position = transform.position;
@@ -29,11 +32,21 @@ public class MainMenu : MonoBehaviour {
         }
         else if (i == 1)
         {
-            SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(2));
+            optionmenuPanel.SetActive(true);
+            mainmenuPanel.SetActive(false);
         }
         else if(i == 2)
         {
             Application.Quit();
+        }
+        else if(i == 3)
+        {
+            mainmenuPanel.SetActive(true);
+            optionmenuPanel.SetActive(false);
+        }
+        else if(i == 7)
+        {
+            Debug.Log("mute sound add this ");
         }
     }
 
