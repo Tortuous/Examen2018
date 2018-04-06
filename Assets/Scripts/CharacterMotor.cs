@@ -58,6 +58,7 @@ public class CharacterMotor : MonoBehaviour {
 	Vector2 _velocity;
 	Vector2 _pVelocity;
 
+    //RaycastHit2D[] hits = new RaycastHit2D[50];
 	Collider2D _collider;
 	SpriteRenderer _renderer;
 
@@ -313,6 +314,52 @@ public class CharacterMotor : MonoBehaviour {
         return null;
 
     }
+
+    //public GameObject[] CheckLayerObstacles(Vector2 direction, Vector2 size, float distance, LayerMask layer)
+    //{
+    //    float rayLength = distance;
+
+    //    Bounds bounds = _collider.bounds;
+    //    bounds.Expand(skinWidth * -2);
+    //    Vector2 rayOrigin;
+
+    //    direction.x = (direction.x != 0) ? (int)Mathf.Sign(direction.x) : 0;
+    //    direction.y = (direction.y != 0) ? (int)Mathf.Sign(direction.y) : 0;
+
+    //    if (direction.x == 0)
+    //    {
+    //        rayOrigin.x = (bounds.max.x + bounds.min.x) / 2f;
+    //    }
+    //    else
+    //    {
+    //        rayOrigin.x = (direction.x > 0) ? bounds.max.x : bounds.min.x;
+    //    }
+
+    //    if (direction.y == 0)
+    //    {
+    //        rayOrigin.y = (bounds.max.y + bounds.min.y) / 2f;
+    //    }
+    //    else
+    //    {
+    //        rayOrigin.y = (direction.y > 0) ? bounds.max.y : bounds.min.y;
+    //    }
+
+    //    hits = Physics2D.BoxCast(rayOrigin,  direction, size, rayLength, layer);
+
+    //    if (debugging)
+    //        Debug.DrawRay(rayOrigin, direction * rayLength, Color.magenta);
+
+    //    if (hits.Length > 0)
+    //    {
+    //        foreach(RaycastHit2D hit in hits)
+    //        {
+    //            return GameObject[] g = hit.transform.gameObject;
+    //        }
+    //    }
+
+    //    return null;
+
+    //}
 
     public void Flip () {
 		_renderer.flipX ^= true;

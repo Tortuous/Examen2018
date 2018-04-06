@@ -14,10 +14,9 @@ public class CountDown : MonoBehaviour {
     string textVisual;
 
 	void Start () {
-        //Time.timeScale = 0.9f;
         foreach (GameObject player in controls)
         {
-            player.SetActive(true);
+            player.SetActive(false);
         }
 	}
 	

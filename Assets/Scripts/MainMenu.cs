@@ -1,21 +1,39 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
 //MAINMENU
 
 public class MainMenu : MonoBehaviour {
-    Vector3 position;
     public List<Button> buttons;
     public GameObject mainmenuPanel;
     public GameObject optionmenuPanel;
 
     static string game = "smashminigame";
 
-    public void Awake()
+    public AudioMixer mixer;
+    public Slider slider;
+    float volume;
+    float mixerVolume;
+
+    private void Update()
     {
-        position = transform.position;
+        //mixer.GetFloat("volume", mixerVolume);
+    }
+
+    public void SetVolume(float v)
+    {
+        mixer.SetFloat("volume", v);
+        volume = v;
+    }
+
+    private void Start()
+    {
+        volume = PlayerPrefs.GetFloat("volume");
+        mixer.SetFloat("volume", volume);
+        slider.value = volume;
     }
 
     public void OnMouseEnter(int i)
@@ -28,6 +46,7 @@ public class MainMenu : MonoBehaviour {
         Debug.Log("Clicked");
         if (i == 0)
         {
+            PlayerPrefs.SetFloat("volume", volume);
             SceneManager.LoadScene(game);
         }
         else if (i == 1)

@@ -13,6 +13,7 @@ public class Controller2D : MonoBehaviour {
 
     public List<GameObject> nearTarget = new List<GameObject> ();
     static public int targetCount = 0;
+    public int targetCount_;
 
     LayerMask EnemyLayer;
     [SerializeField]
@@ -23,13 +24,16 @@ public class Controller2D : MonoBehaviour {
     //string verticalAxis = "J_MainVertical";
     [SerializeField]
     string attackAxis;
+    [SerializeField]
+    string shootAxis;
 
     // private vars
     float InputX = 0f;
     float stickTimer = 0f;
-    float exitTimer = 0f;
+    float exitWallTimer = 0f;
     float skinWidth = 0.03f;
     float attackwidth = 1.5f;
+    float shootWidth = 20f;
     float wallDir = 0f;
 
     Vector3 faceDir;
@@ -40,21 +44,24 @@ public class Controller2D : MonoBehaviour {
     bool isGrounded;
     bool doubleJumped = false;
     GameObject hitEnemy;
+    GameObject hitEnemyShooting;
 
     Vector3 movement;
     CharacterMotor motor;
 
     void Awake () {
         motor = GetComponent<CharacterMotor> ();
+        targetCount = 0;
     }
 
-    void Update () {
-        score.text = targetCount.ToString (); // UI-element
-        
-        InputX = Input.GetAxisRaw (horizontalAxis);
-        motor.SetVelocity (movement * speed * Time.deltaTime);
-        isGrounded = motor.Grounded ();
-        movement = new Vector2 (InputX, 0);
+    void Update() {
+        targetCount_ = targetCount;
+        score.text = targetCount.ToString(); // UI-element
+
+        InputX = Input.GetAxisRaw(horizontalAxis);
+        motor.SetVelocity(movement * speed * Time.deltaTime);
+        isGrounded = motor.Grounded();
+        movement = new Vector2(InputX, 0);
 
         if (movement.x != 0)
         {
@@ -62,19 +69,28 @@ public class Controller2D : MonoBehaviour {
         }
 
         hitEnemy = motor.CheckLayerObstacle(faceDir, attackwidth, 1 << LayerMask.NameToLayer("EnemyLayer"));
+        hitEnemyShooting = motor.CheckLayerObstacle(faceDir, shootWidth, (1 << LayerMask.NameToLayer("Default")) | (1 << LayerMask.NameToLayer("EnemyLayer")));
+
         if (hitEnemy != null)
             Debug.Log(hitEnemy.name);
+        if(hitEnemyShooting != null)
+            Debug.Log(hitEnemyShooting.name + " shoot can see this");
 
         if (Input.GetButtonDown (jumpAxis)) {
-            Jumpy ();
+            Jumpy();
             stickTimer = 0f;
-            exitTimer = 0f;
+            exitWallTimer = 0f;
             huggingWall = false;
         }
 
         if (Input.GetButtonDown (attackAxis)) {
-            Attack ();
+            Attack();
             canAttack = false;
+        }
+
+        if (Input.GetButtonDown(shootAxis))
+        {
+            Shoot();
         }
 
         motor.FreezeXAxis (huggingWall);
@@ -85,20 +101,20 @@ public class Controller2D : MonoBehaviour {
         if (hitWall) {
             wallDir = Mathf.Sign (movement.x);
             huggingWall = true;
-            exitTimer = 0f;
+            exitWallTimer = 0f;
         } else if (wallDir == ((movement.x == 0) ? 0 : -Mathf.Sign (movement.x))) {
-            exitTimer += Time.deltaTime;
-            if (exitTimer > 0.5f) {
+            exitWallTimer += Time.deltaTime;
+            if (exitWallTimer > 0.4f) {
                 huggingWall = false;
-                exitTimer = 0f;
+                exitWallTimer = 0f;
             }
         } else {
-            exitTimer = 0f;
+            exitWallTimer = 0f;
         }
 
         if (huggingWall) {
             stickTimer += Time.deltaTime;
-            if (stickTimer > 1f) {
+            if (stickTimer > .6f) {
                 huggingWall = false;
             }
         }
@@ -117,12 +133,37 @@ public class Controller2D : MonoBehaviour {
         }
     }
 
-    void Attack () {
-        if (canAttack && hitEnemy) {
-            Debug.Log ("Has attacked");
-            StartCoroutine (ResetAttack ());
+    void Attack ()
+    {
+        if (hitEnemy != null)
+        {
+            if (!huggingWall && canAttack && hitEnemy.transform.gameObject.layer == LayerMask.NameToLayer("EnemyLayer"))
+            {
+                Debug.Log("Has attacked");
+                hitEnemy.SetActive(false);
+                targetCount++;
+                canAttack = false;
+                StartCoroutine(ResetAttack());
+
+            }
+            StartCoroutine(ResetAttack());
         }
-        StartCoroutine (ResetAttack ());
+    }
+
+    void Shoot()
+    {
+        if(hitEnemyShooting != null)
+        {
+            if (!huggingWall && canAttack && hitEnemyShooting.transform.gameObject.layer == LayerMask.NameToLayer("EnemyLayer"))
+            {
+                Debug.Log("Shot has hit");
+                hitEnemyShooting.SetActive(false);
+                targetCount++;
+                canAttack = false;
+                StartCoroutine(ResetAttack());
+            }
+            StartCoroutine(ResetAttack());
+        }
     }
 
     IEnumerator ResetAttack () {

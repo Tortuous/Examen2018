@@ -1,0 +1,4419 @@
+fileFormatVersion: 2
+guid: cd39caa57fcdf1e4ca09655dd3b0588c
+timeCreated: 1522965996
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GameCube - Super Smash Bros Melee - Character Select Portraits_0
+    21300002: GameCube - Super Smash Bros Melee - Character Select Portraits_1
+    21300004: GameCube - Super Smash Bros Melee - Character Select Portraits_2
+    21300006: GameCube - Super Smash Bros Melee - Character Select Portraits_3
+    21300008: GameCube - Super Smash Bros Melee - Character Select Portraits_4
+    21300010: GameCube - Super Smash Bros Melee - Character Select Portraits_5
+    21300012: GameCube - Super Smash Bros Melee - Character Select Portraits_6
+    21300014: GameCube - Super Smash Bros Melee - Character Select Portraits_7
+    21300016: GameCube - Super Smash Bros Melee - Character Select Portraits_8
+    21300018: GameCube - Super Smash Bros Melee - Character Select Portraits_9
+    21300020: GameCube - Super Smash Bros Melee - Character Select Portraits_10
+    21300022: GameCube - Super Smash Bros Melee - Character Select Portraits_11
+    21300024: GameCube - Super Smash Bros Melee - Character Select Portraits_12
+    21300026: GameCube - Super Smash Bros Melee - Character Select Portraits_13
+    21300028: GameCube - Super Smash Bros Melee - Character Select Portraits_14
+    21300030: GameCube - Super Smash Bros Melee - Character Select Portraits_15
+    21300032: GameCube - Super Smash Bros Melee - Character Select Portraits_16
+    21300034: GameCube - Super Smash Bros Melee - Character Select Portraits_17
+    21300036: GameCube - Super Smash Bros Melee - Character Select Portraits_18
+    21300038: GameCube - Super Smash Bros Melee - Character Select Portraits_19
+    21300040: GameCube - Super Smash Bros Melee - Character Select Portraits_20
+    21300042: GameCube - Super Smash Bros Melee - Character Select Portraits_21
+    21300044: GameCube - Super Smash Bros Melee - Character Select Portraits_22
+    21300046: GameCube - Super Smash Bros Melee - Character Select Portraits_23
+    21300048: GameCube - Super Smash Bros Melee - Character Select Portraits_24
+    21300050: GameCube - Super Smash Bros Melee - Character Select Portraits_25
+    21300052: GameCube - Super Smash Bros Melee - Character Select Portraits_26
+    21300054: GameCube - Super Smash Bros Melee - Character Select Portraits_27
+    21300056: GameCube - Super Smash Bros Melee - Character Select Portraits_28
+    21300058: GameCube - Super Smash Bros Melee - Character Select Portraits_29
+    21300060: GameCube - Super Smash Bros Melee - Character Select Portraits_30
+    21300062: GameCube - Super Smash Bros Melee - Character Select Portraits_31
+    21300064: GameCube - Super Smash Bros Melee - Character Select Portraits_32
+    21300066: GameCube - Super Smash Bros Melee - Character Select Portraits_33
+    21300068: GameCube - Super Smash Bros Melee - Character Select Portraits_34
+    21300070: GameCube - Super Smash Bros Melee - Character Select Portraits_35
+    21300072: GameCube - Super Smash Bros Melee - Character Select Portraits_36
+    21300074: GameCube - Super Smash Bros Melee - Character Select Portraits_37
+    21300076: GameCube - Super Smash Bros Melee - Character Select Portraits_38
+    21300078: GameCube - Super Smash Bros Melee - Character Select Portraits_39
+    21300080: GameCube - Super Smash Bros Melee - Character Select Portraits_40
+    21300082: GameCube - Super Smash Bros Melee - Character Select Portraits_41
+    21300084: GameCube - Super Smash Bros Melee - Character Select Portraits_42
+    21300086: GameCube - Super Smash Bros Melee - Character Select Portraits_43
+    21300088: GameCube - Super Smash Bros Melee - Character Select Portraits_44
+    21300090: GameCube - Super Smash Bros Melee - Character Select Portraits_45
+    21300092: GameCube - Super Smash Bros Melee - Character Select Portraits_46
+    21300094: GameCube - Super Smash Bros Melee - Character Select Portraits_47
+    21300096: GameCube - Super Smash Bros Melee - Character Select Portraits_48
+    21300098: GameCube - Super Smash Bros Melee - Character Select Portraits_49
+    21300100: GameCube - Super Smash Bros Melee - Character Select Portraits_50
+    21300102: GameCube - Super Smash Bros Melee - Character Select Portraits_51
+    21300104: GameCube - Super Smash Bros Melee - Character Select Portraits_52
+    21300106: GameCube - Super Smash Bros Melee - Character Select Portraits_53
+    21300108: GameCube - Super Smash Bros Melee - Character Select Portraits_54
+    21300110: GameCube - Super Smash Bros Melee - Character Select Portraits_55
+    21300112: GameCube - Super Smash Bros Melee - Character Select Portraits_56
+    21300114: GameCube - Super Smash Bros Melee - Character Select Portraits_57
+    21300116: GameCube - Super Smash Bros Melee - Character Select Portraits_58
+    21300118: GameCube - Super Smash Bros Melee - Character Select Portraits_59
+    21300120: GameCube - Super Smash Bros Melee - Character Select Portraits_60
+    21300122: GameCube - Super Smash Bros Melee - Character Select Portraits_61
+    21300124: GameCube - Super Smash Bros Melee - Character Select Portraits_62
+    21300126: GameCube - Super Smash Bros Melee - Character Select Portraits_63
+    21300128: GameCube - Super Smash Bros Melee - Character Select Portraits_64
+    21300130: GameCube - Super Smash Bros Melee - Character Select Portraits_65
+    21300132: GameCube - Super Smash Bros Melee - Character Select Portraits_66
+    21300134: GameCube - Super Smash Bros Melee - Character Select Portraits_67
+    21300136: GameCube - Super Smash Bros Melee - Character Select Portraits_68
+    21300138: GameCube - Super Smash Bros Melee - Character Select Portraits_69
+    21300140: GameCube - Super Smash Bros Melee - Character Select Portraits_70
+    21300142: GameCube - Super Smash Bros Melee - Character Select Portraits_71
+    21300144: GameCube - Super Smash Bros Melee - Character Select Portraits_72
+    21300146: GameCube - Super Smash Bros Melee - Character Select Portraits_73
+    21300148: GameCube - Super Smash Bros Melee - Character Select Portraits_74
+    21300150: GameCube - Super Smash Bros Melee - Character Select Portraits_75
+    21300152: GameCube - Super Smash Bros Melee - Character Select Portraits_76
+    21300154: GameCube - Super Smash Bros Melee - Character Select Portraits_77
+    21300156: GameCube - Super Smash Bros Melee - Character Select Portraits_78
+    21300158: GameCube - Super Smash Bros Melee - Character Select Portraits_79
+    21300160: GameCube - Super Smash Bros Melee - Character Select Portraits_80
+    21300162: GameCube - Super Smash Bros Melee - Character Select Portraits_81
+    21300164: GameCube - Super Smash Bros Melee - Character Select Portraits_82
+    21300166: GameCube - Super Smash Bros Melee - Character Select Portraits_83
+    21300168: GameCube - Super Smash Bros Melee - Character Select Portraits_84
+    21300170: GameCube - Super Smash Bros Melee - Character Select Portraits_85
+    21300172: GameCube - Super Smash Bros Melee - Character Select Portraits_86
+    21300174: GameCube - Super Smash Bros Melee - Character Select Portraits_87
+    21300176: GameCube - Super Smash Bros Melee - Character Select Portraits_88
+    21300178: GameCube - Super Smash Bros Melee - Character Select Portraits_89
+    21300180: GameCube - Super Smash Bros Melee - Character Select Portraits_90
+    21300182: GameCube - Super Smash Bros Melee - Character Select Portraits_91
+    21300184: GameCube - Super Smash Bros Melee - Character Select Portraits_92
+    21300186: GameCube - Super Smash Bros Melee - Character Select Portraits_93
+    21300188: GameCube - Super Smash Bros Melee - Character Select Portraits_94
+    21300190: GameCube - Super Smash Bros Melee - Character Select Portraits_95
+    21300192: GameCube - Super Smash Bros Melee - Character Select Portraits_96
+    21300194: GameCube - Super Smash Bros Melee - Character Select Portraits_97
+    21300196: GameCube - Super Smash Bros Melee - Character Select Portraits_98
+    21300198: GameCube - Super Smash Bros Melee - Character Select Portraits_99
+    21300200: GameCube - Super Smash Bros Melee - Character Select Portraits_100
+    21300202: GameCube - Super Smash Bros Melee - Character Select Portraits_101
+    21300204: GameCube - Super Smash Bros Melee - Character Select Portraits_102
+    21300206: GameCube - Super Smash Bros Melee - Character Select Portraits_103
+    21300208: GameCube - Super Smash Bros Melee - Character Select Portraits_104
+    21300210: GameCube - Super Smash Bros Melee - Character Select Portraits_105
+    21300212: GameCube - Super Smash Bros Melee - Character Select Portraits_106
+    21300214: GameCube - Super Smash Bros Melee - Character Select Portraits_107
+    21300216: GameCube - Super Smash Bros Melee - Character Select Portraits_108
+    21300218: GameCube - Super Smash Bros Melee - Character Select Portraits_109
+    21300220: GameCube - Super Smash Bros Melee - Character Select Portraits_110
+    21300222: GameCube - Super Smash Bros Melee - Character Select Portraits_111
+    21300224: GameCube - Super Smash Bros Melee - Character Select Portraits_112
+    21300226: GameCube - Super Smash Bros Melee - Character Select Portraits_113
+    21300228: GameCube - Super Smash Bros Melee - Character Select Portraits_114
+    21300230: GameCube - Super Smash Bros Melee - Character Select Portraits_115
+    21300232: GameCube - Super Smash Bros Melee - Character Select Portraits_116
+    21300234: GameCube - Super Smash Bros Melee - Character Select Portraits_117
+    21300236: GameCube - Super Smash Bros Melee - Character Select Portraits_118
+    21300238: GameCube - Super Smash Bros Melee - Character Select Portraits_119
+    21300240: GameCube - Super Smash Bros Melee - Character Select Portraits_120
+    21300242: GameCube - Super Smash Bros Melee - Character Select Portraits_121
+    21300244: GameCube - Super Smash Bros Melee - Character Select Portraits_122
+    21300246: GameCube - Super Smash Bros Melee - Character Select Portraits_123
+    21300248: GameCube - Super Smash Bros Melee - Character Select Portraits_124
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4538
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.73062}
+        - {x: 69, y: -93.73062}
+        - {x: 69, y: 94}
+      - - {x: -58.064518, y: -57.43179}
+        - {x: -41.129032, y: -62.271633}
+        - {x: -33.870968, y: -84.050934}
+        - {x: -58.064518, y: -84.050934}
+      - - {x: -58.064518, y: 85.343605}
+        - {x: -38.70968, y: 10.326024}
+        - {x: -33.870968, y: 5.4861803}
+        - {x: -36.29032, y: 7.906102}
+        - {x: -43.54839, y: 7.906102}
+        - {x: -50.806454, y: 3.0662584}
+        - {x: -58.064518, y: 3.0662584}
+        - {x: -60.48387, y: 0.64633656}
+        - {x: -58.064518, y: 0.64633656}
+      - - {x: 62.903225, y: 65.98423}
+        - {x: 55.64516, y: 75.66392}
+        - {x: 55.64516, y: 82.92368}
+        - {x: 58.064518, y: 85.343605}
+        - {x: 60.48387, y: 49.044777}
+        - {x: 62.903225, y: 51.4647}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4538
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.73062}
+        - {x: 69, y: -93.73062}
+        - {x: 69, y: 94}
+      - - {x: -57.96774, y: -57.43179}
+        - {x: -36.193546, y: -79.21109}
+        - {x: -33.774193, y: -84.050934}
+        - {x: -60.387096, y: -84.050934}
+      - - {x: -60.387096, y: 85.343605}
+        - {x: -38.6129, y: 51.4647}
+        - {x: -38.6129, y: 7.906102}
+        - {x: -36.193546, y: 5.4861803}
+        - {x: -36.193546, y: 7.906102}
+        - {x: -43.45161, y: 7.906102}
+        - {x: -57.96774, y: 3.0662584}
+        - {x: -62.80645, y: -1.7735853}
+        - {x: -60.387096, y: -1.7735853}
+      - - {x: 60.580647, y: 78.08384}
+        - {x: 58.161293, y: 85.343605}
+        - {x: 60.580647, y: 46.624855}
+        - {x: 67.838715, y: 46.624855}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 4538
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.73062}
+        - {x: 69, y: -93.73062}
+        - {x: 69, y: 94}
+      - - {x: -60.290318, y: -55.011868}
+        - {x: -50.6129, y: -59.85171}
+        - {x: -38.516125, y: -71.951324}
+        - {x: -57.870964, y: -81.63101}
+      - - {x: -60.290318, y: 85.343605}
+        - {x: -40.93548, y: 12.745946}
+        - {x: -36.09677, y: 5.4861803}
+        - {x: -36.09677, y: 7.906102}
+        - {x: -45.77419, y: 7.906102}
+        - {x: -53.032253, y: 3.0662584}
+        - {x: -60.290318, y: 3.0662584}
+        - {x: -62.709675, y: 0.64633656}
+        - {x: -60.290318, y: 0.64633656}
+      - - {x: 60.677425, y: 68.40415}
+        - {x: 55.838715, y: 73.243996}
+        - {x: 55.838715, y: 85.343605}
+        - {x: 58.258068, y: 63.56431}
+        - {x: 60.677425, y: 65.98423}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 4538
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.73062}
+        - {x: 69, y: -93.73062}
+        - {x: 69, y: 94}
+      - - {x: -60.19356, y: -57.43179}
+        - {x: -43.258076, y: -62.271633}
+        - {x: -38.41937, y: -79.21109}
+        - {x: -60.19356, y: -84.050934}
+      - - {x: -60.19356, y: 85.343605}
+        - {x: -40.838722, y: 36.945168}
+        - {x: -40.838722, y: 7.906102}
+        - {x: -36.00001, y: 5.4861803}
+        - {x: -38.41937, y: 7.906102}
+        - {x: -45.677433, y: 7.906102}
+        - {x: -52.935497, y: 3.0662584}
+        - {x: -60.19356, y: 3.0662584}
+        - {x: -62.612915, y: 0.64633656}
+        - {x: -60.19356, y: 0.64633656}
+      - - {x: 60.77418, y: 65.98423}
+        - {x: 53.516117, y: 75.66392}
+        - {x: 53.516117, y: 82.92368}
+        - {x: 55.935474, y: 85.343605}
+        - {x: 58.354828, y: 46.624855}
+        - {x: 60.77418, y: 49.044777}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 4538
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.73062}
+        - {x: 69, y: -93.73062}
+        - {x: 69, y: 94}
+      - - {x: 56.03227, y: 85.343605}
+        - {x: 58.451622, y: 46.624855}
+        - {x: 65.70969, y: 46.624855}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4349
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.976685}
+        - {x: 69, y: -93.976685}
+        - {x: 69, y: 94}
+      - - {x: -58.064518, y: 27.01941}
+        - {x: -50.806454, y: 7.6600337}
+        - {x: -36.29032, y: -55.25794}
+        - {x: -58.064518, y: -84.297}
+      - - {x: 43.54839, y: -69.777466}
+        - {x: 43.54839, y: -62.517704}
+        - {x: 43.54839, y: -67.357544}
+        - {x: 55.64516, y: -77.03723}
+        - {x: 58.064518, y: -77.03723}
+        - {x: 58.064518, y: -84.297}
+        - {x: 60.48387, y: -84.297}
+      - - {x: -58.064518, y: 85.097534}
+        - {x: 7.2580647, y: 87.517456}
+        - {x: 2.419355, y: 87.517456}
+        - {x: -4.83871, y: 77.83777}
+        - {x: -7.2580647, y: 75.41785}
+        - {x: -21.774195, y: 89.93738}
+        - {x: -38.70968, y: 89.93738}
+        - {x: -50.806454, y: 85.097534}
+        - {x: -60.48387, y: 72.997925}
+        - {x: -58.064518, y: 72.997925}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4349
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.976685}
+        - {x: 69, y: -93.976685}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: 24.599487}
+        - {x: -50.709675, y: 14.9198}
+        - {x: -43.45161, y: -77.03723}
+        - {x: -60.387096, y: -84.297}
+      - - {x: 43.645164, y: -72.19739}
+        - {x: 43.645164, y: -67.357544}
+        - {x: 41.22581, y: -64.93762}
+        - {x: 46.064518, y: -60.097782}
+        - {x: 43.645164, y: -60.097782}
+        - {x: 43.645164, y: -67.357544}
+        - {x: 50.90323, y: -74.61731}
+      - - {x: -33.774193, y: 87.517456}
+        - {x: -45.870968, y: 87.517456}
+        - {x: -62.80645, y: 70.578}
+        - {x: -60.387096, y: 70.578}
+      - - {x: -11.999998, y: 80.25769}
+        - {x: -21.677418, y: 87.517456}
+        - {x: 4.9354863, y: 85.097534}
+        - {x: 4.9354863, y: 87.517456}
+        - {x: -7.1612883, y: 75.41785}
+        - {x: -7.1612883, y: 77.83777}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 4349
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.976685}
+        - {x: 69, y: -93.976685}
+        - {x: 69, y: 94}
+      - - {x: -50.6129, y: 14.9198}
+        - {x: -40.93548, y: -21.37903}
+        - {x: -43.354836, y: -74.61731}
+        - {x: -60.290318, y: -84.297}
+      - - {x: 43.74194, y: -69.777466}
+        - {x: 48.58065, y: -74.61731}
+        - {x: 55.838715, y: -77.03723}
+        - {x: 55.838715, y: -84.297}
+        - {x: 58.258068, y: -84.297}
+      - - {x: -31.25806, y: 87.517456}
+        - {x: -40.93548, y: 89.93738}
+        - {x: -50.6129, y: 82.67761}
+        - {x: -53.032253, y: 82.67761}
+        - {x: -62.709675, y: 72.997925}
+        - {x: -60.290318, y: 72.997925}
+      - - {x: -21.58064, y: 87.517456}
+        - {x: 5.032263, y: 87.517456}
+        - {x: 0.19355282, y: 87.517456}
+        - {x: -7.064512, y: 77.83777}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_8
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 4349
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.976685}
+        - {x: 69, y: -93.976685}
+        - {x: 69, y: 94}
+      - - {x: -62.612915, y: 31.859253}
+        - {x: -60.19356, y: 22.179565}
+        - {x: -60.19356, y: -84.297}
+      - - {x: 41.419342, y: -69.777466}
+        - {x: 41.419342, y: -62.517704}
+        - {x: 41.419342, y: -67.357544}
+        - {x: 53.516117, y: -77.03723}
+        - {x: 55.935474, y: -77.03723}
+        - {x: 55.935474, y: -84.297}
+        - {x: 58.354828, y: -84.297}
+      - - {x: -36.00001, y: 87.517456}
+        - {x: -48.096786, y: 87.517456}
+        - {x: -62.612915, y: 72.997925}
+        - {x: -60.19356, y: 72.997925}
+      - - {x: -14.225819, y: 80.25769}
+        - {x: -23.903238, y: 89.93738}
+        - {x: -26.322594, y: 87.517456}
+        - {x: 5.1290207, y: 87.517456}
+        - {x: 0.29031077, y: 87.517456}
+        - {x: -6.967754, y: 77.83777}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_9
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 4349
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.976685}
+        - {x: 69, y: -93.976685}
+        - {x: 69, y: 94}
+      - - {x: 41.51614, y: -72.19739}
+        - {x: 41.51614, y: -67.357544}
+        - {x: 41.51614, y: -69.777466}
+        - {x: 48.774204, y: -74.61731}
+      - - {x: -23.806442, y: 87.517456}
+        - {x: 2.8064606, y: 87.517456}
+        - {x: -9.290314, y: 75.41785}
+        - {x: -11.709669, y: 77.83777}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4160
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -50.806454, y: -72.44346}
+        - {x: -36.29032, y: -65.18369}
+        - {x: -38.70968, y: -77.2833}
+        - {x: -58.064518, y: -84.54307}
+      - - {x: -58.064518, y: 84.85147}
+        - {x: -31.451612, y: 17.093653}
+        - {x: -29.032259, y: 9.833887}
+        - {x: -16.935484, y: 0.15419912}
+        - {x: -21.774195, y: -4.6856446}
+        - {x: -38.70968, y: 2.574121}
+        - {x: -48.387096, y: 2.574121}
+        - {x: -55.64516, y: 0.15419912}
+        - {x: -60.48387, y: -4.6856446}
+        - {x: -58.064518, y: -4.6856446}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4160
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -50.709675, y: -72.44346}
+        - {x: -36.193546, y: -65.18369}
+        - {x: -43.45161, y: -84.54307}
+        - {x: -60.387096, y: -84.54307}
+      - - {x: -38.6129, y: 4.994043}
+        - {x: -60.387096, y: 2.574121}
+        - {x: -60.387096, y: 84.85147}
+        - {x: 4.9354863, y: 87.27139}
+        - {x: 2.5161314, y: 89.691315}
+        - {x: -7.1612883, y: 80.01162}
+        - {x: -14.419353, y: 75.171776}
+        - {x: -33.774193, y: 46.132717}
+        - {x: -33.774193, y: 21.933496}
+        - {x: -31.354837, y: 14.673731}
+        - {x: -19.258062, y: 0.15419912}
+        - {x: -24.096773, y: -7.1055665}
+        - {x: -26.516127, y: -4.6856446}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 4160
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -50.6129, y: -72.44346}
+        - {x: -23.999996, y: -57.923927}
+        - {x: -38.516125, y: -72.44346}
+        - {x: -60.290318, y: -84.54307}
+      - - {x: -38.516125, y: 9.833887}
+        - {x: -19.161285, y: 0.15419912}
+        - {x: -26.419352, y: -7.1055665}
+        - {x: -23.999996, y: -7.1055665}
+        - {x: -26.419352, y: -4.6856446}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_13
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 4160
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -52.935497, y: -72.44346}
+        - {x: -38.41937, y: -65.18369}
+        - {x: -45.677433, y: -84.54307}
+        - {x: -60.19356, y: -84.54307}
+      - - {x: -60.19356, y: 84.85147}
+        - {x: -33.580658, y: 17.093653}
+        - {x: -31.161303, y: 9.833887}
+        - {x: -19.064528, y: 0.15419912}
+        - {x: -19.064528, y: 2.574121}
+        - {x: -26.322594, y: -4.6856446}
+        - {x: -43.258076, y: 2.574121}
+        - {x: -50.51614, y: 2.574121}
+        - {x: -57.774208, y: 0.15419912}
+        - {x: -62.612915, y: -4.6856446}
+        - {x: -60.19356, y: -4.6856446}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_14
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 4160
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.32259, y: -94}
+        - {x: 31.838718, y: -94}
+        - {x: 31.838718, y: -70.02354}
+        - {x: 31.838718, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 75.171776}
+        - {x: 17.32259, y: 82.43155}
+        - {x: -62.51612, y: 82.43155}
+        - {x: -62.51612, y: -94}
+        - {x: 12.48388, y: -94}
+        - {x: 14.9032345, y: -89.38291}
+        - {x: 14.9032345, y: -79.703224}
+      - - {x: -43.16128, y: -50.66416}
+        - {x: -35.903217, y: -53.084084}
+        - {x: -45.58064, y: -53.084084}
+      - - {x: 7.64517, y: -53.084084}
+        - {x: 17.32259, y: -45.824318}
+        - {x: 14.9032345, y: -53.084084}
+        - {x: 5.2258153, y: -53.084084}
+      - - {x: 34.258076, y: -50.66416}
+        - {x: 41.51614, y: -50.66416}
+        - {x: 41.51614, y: -53.084084}
+        - {x: 34.258076, y: -53.084084}
+      - - {x: 34.258076, y: -9.525489}
+        - {x: 34.258076, y: -24.045021}
+      - - {x: -28.645153, y: -7.1055665}
+        - {x: 0.38710564, y: -7.1055665}
+        - {x: -6.870959, y: -4.6856446}
+        - {x: -14.129024, y: -9.525489}
+        - {x: -18.967733, y: -9.525489}
+      - - {x: -47.999992, y: 24.353418}
+        - {x: -50.419346, y: 21.933496}
+        - {x: -43.16128, y: 14.673731}
+        - {x: -45.58064, y: 12.253809}
+      - - {x: 14.9032345, y: 14.673731}
+        - {x: 14.9032345, y: 12.253809}
+        - {x: 12.48388, y: 9.833887}
+        - {x: 14.9032345, y: 12.253809}
+      - - {x: 34.258076, y: 55.812405}
+        - {x: 31.838718, y: 34.033108}
+        - {x: 31.838718, y: 24.353418}
+        - {x: 34.258076, y: 21.933496}
+        - {x: 34.258076, y: 12.253809}
+      - - {x: -45.58064, y: 55.812405}
+        - {x: -50.419346, y: 46.132717}
+        - {x: -47.999992, y: 41.292873}
+        - {x: -45.58064, y: 43.712795}
+      - - {x: 10.064526, y: 58.232327}
+        - {x: 14.9032345, y: 55.812405}
+        - {x: 17.32259, y: 46.132717}
+        - {x: 19.741945, y: 48.55264}
+      - - {x: -69, y: 94}
+        - {x: -69, y: 87.27139}
+        - {x: 68.12904, y: 87.27139}
+        - {x: 69, y: 89.691315}
+        - {x: 69, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3971
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.258865}
+        - {x: 69, y: -93.258865}
+        - {x: 69, y: 94}
+      - - {x: -60.48387, y: -73.89949}
+        - {x: -62.903225, y: -76.31941}
+        - {x: -53.225807, y: -85.9991}
+        - {x: -45.967743, y: -85.9991}
+        - {x: -36.29032, y: -83.57918}
+        - {x: -29.032259, y: -81.159256}
+        - {x: -24.193548, y: -81.159256}
+        - {x: -58.064518, y: -81.159256}
+      - - {x: -60.48387, y: -3.7217524}
+        - {x: -62.903225, y: -6.1416745}
+        - {x: -60.48387, y: -13.401441}
+        - {x: -58.064518, y: -13.401441}
+      - - {x: -58.064518, y: 88.23528}
+        - {x: -62.903225, y: 44.676685}
+        - {x: -60.48387, y: 25.31731}
+        - {x: -58.064518, y: 27.737232}
+      - - {x: 50.806454, y: 90.655205}
+        - {x: 38.70968, y: 90.655205}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3971
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.258865}
+        - {x: 69, y: -93.258865}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: -76.31941}
+        - {x: -62.80645, y: -76.31941}
+        - {x: -53.129032, y: -85.9991}
+        - {x: -45.870968, y: -85.9991}
+        - {x: -43.45161, y: -83.57918}
+        - {x: -31.354837, y: -81.159256}
+        - {x: -24.096773, y: -81.159256}
+        - {x: -60.387096, y: -81.159256}
+      - - {x: -60.387096, y: 88.23528}
+        - {x: -69, y: 8.377857}
+        - {x: -65.22581, y: -18.241283}
+        - {x: -60.387096, y: -13.401441}
+      - - {x: 48.483875, y: 90.655205}
+        - {x: 38.806454, y: 90.655205}
+        - {x: 38.806454, y: 88.23528}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_17
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3971
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.258865}
+        - {x: 69, y: -93.258865}
+        - {x: 69, y: 94}
+      - - {x: -62.709675, y: -76.31941}
+        - {x: -55.45161, y: -85.9991}
+        - {x: -45.77419, y: -85.9991}
+        - {x: -31.25806, y: -81.159256}
+        - {x: -21.58064, y: -73.89949}
+        - {x: -19.161285, y: -73.89949}
+        - {x: -23.999996, y: -78.739334}
+        - {x: -23.999996, y: -81.159256}
+        - {x: -60.290318, y: -81.159256}
+      - - {x: -62.709675, y: 18.057545}
+        - {x: -65.12903, y: -3.7217524}
+        - {x: -62.709675, y: -13.401441}
+        - {x: -60.290318, y: -13.401441}
+      - - {x: -65.12903, y: 44.676685}
+        - {x: -65.12903, y: 34.996998}
+        - {x: -62.709675, y: 25.31731}
+        - {x: -60.290318, y: 27.737232}
+      - - {x: 48.58065, y: 90.655205}
+        - {x: 36.483875, y: 90.655205}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_18
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3971
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.258865}
+        - {x: 69, y: -93.258865}
+        - {x: 69, y: 94}
+      - - {x: -62.612915, y: -73.89949}
+        - {x: -65.03227, y: -76.31941}
+        - {x: -55.35485, y: -85.9991}
+        - {x: -48.096786, y: -85.9991}
+        - {x: -38.41937, y: -83.57918}
+        - {x: -31.161303, y: -81.159256}
+        - {x: -26.322594, y: -81.159256}
+        - {x: -60.19356, y: -81.159256}
+      - - {x: -62.612915, y: -3.7217524}
+        - {x: -65.03227, y: -6.1416745}
+        - {x: -62.612915, y: -13.401441}
+        - {x: -60.19356, y: -13.401441}
+      - - {x: -43.258076, y: 71.29583}
+        - {x: -60.19356, y: 59.196217}
+        - {x: -57.774208, y: 51.93645}
+        - {x: -65.03227, y: 44.676685}
+        - {x: -69, y: 1.1180913}
+      - - {x: 48.67741, y: 90.655205}
+        - {x: 36.580635, y: 90.655205}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_19
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3971
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: -83.57918}
+        - {x: -69, y: -93.258865}
+        - {x: 69, y: -93.258865}
+        - {x: 69, y: -85.9991}
+        - {x: 68.12904, y: -83.57918}
+      - - {x: 17.32259, y: 94}
+        - {x: 17.32259, y: 71.29583}
+        - {x: 12.48388, y: 94}
+        - {x: -40.74193, y: 94}
+        - {x: -45.58064, y: 93.07513}
+        - {x: -45.58064, y: 76.13567}
+        - {x: -47.999992, y: 94}
+        - {x: -62.51612, y: 94}
+        - {x: -62.51612, y: -69.05965}
+        - {x: -57.67741, y: -73.89949}
+        - {x: 69, y: -73.89949}
+        - {x: 69, y: 94}
+      - - {x: -4.451604, y: -42.440502}
+        - {x: -6.870959, y: -42.440502}
+        - {x: -4.451604, y: -44.860424}
+        - {x: 5.2258153, y: -47.280346}
+        - {x: 12.48388, y: -44.860424}
+        - {x: 19.741945, y: -35.180737}
+        - {x: 36.67743, y: 1.1180913}
+        - {x: -4.451604, y: -37.60066}
+        - {x: -18.967733, y: -56.960033}
+      - - {x: 34.258076, y: -10.981519}
+        - {x: 27.00001, y: -23.081127}
+        - {x: 29.419365, y: -52.12019}
+        - {x: 34.258076, y: -56.960033}
+      - - {x: -45.58064, y: -10.981519}
+        - {x: -47.999992, y: -44.860424}
+        - {x: -47.999992, y: -52.12019}
+        - {x: -45.58064, y: -52.12019}
+      - - {x: 34.258076, y: 54.356373}
+        - {x: 27.00001, y: 37.41692}
+        - {x: 31.838718, y: 8.377857}
+        - {x: 34.258076, y: 8.377857}
+      - - {x: -45.58064, y: 54.356373}
+        - {x: -47.999992, y: 22.897388}
+        - {x: -47.999992, y: 15.637623}
+        - {x: -45.58064, y: 15.637623}
+      - - {x: 12.48388, y: 25.31731}
+        - {x: 7.64517, y: 39.83684}
+        - {x: 17.32259, y: 13.217701}
+        - {x: 19.741945, y: 15.637623}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3782
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.50494}
+        - {x: 69, y: -93.50494}
+        - {x: 69, y: 94}
+      - - {x: -60.48387, y: -25.747118}
+        - {x: -60.48387, y: -45.106495}
+        - {x: -55.64516, y: -49.94634}
+        - {x: -55.64516, y: -54.786182}
+        - {x: -58.064518, y: -81.40533}
+      - - {x: -19.35484, y: 90.409134}
+        - {x: -31.451612, y: 90.409134}
+        - {x: -50.806454, y: 71.04976}
+        - {x: -55.64516, y: 56.530228}
+        - {x: -55.64516, y: 51.690384}
+        - {x: -53.225807, y: 44.43062}
+        - {x: -60.48387, y: 37.170853}
+        - {x: -62.903225, y: 22.65132}
+        - {x: -65.32258, y: -23.327196}
+      - - {x: 62.903225, y: 34.75093}
+        - {x: 62.903225, y: 44.43062}
+        - {x: 55.64516, y: 51.690384}
+        - {x: 55.64516, y: 49.270462}
+        - {x: 58.064518, y: 51.690384}
+        - {x: 58.064518, y: 61.37007}
+        - {x: 50.806454, y: 68.62984}
+        - {x: 58.064518, y: 22.65132}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3782
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.50494}
+        - {x: 69, y: -93.50494}
+        - {x: 69, y: 94}
+      - - {x: -57.96774, y: -57.206104}
+        - {x: -41.032257, y: -69.30572}
+        - {x: -43.45161, y: -81.40533}
+        - {x: -60.387096, y: -81.40533}
+      - - {x: -19.258062, y: 90.409134}
+        - {x: -33.774193, y: 90.409134}
+        - {x: -41.032257, y: 83.14937}
+        - {x: -48.29032, y: 83.14937}
+        - {x: -60.387096, y: 61.37007}
+        - {x: -55.548386, y: 42.010696}
+        - {x: -62.80645, y: 34.75093}
+        - {x: -62.80645, y: 29.911085}
+        - {x: -60.387096, y: 27.491163}
+        - {x: -60.387096, y: 22.65132}
+        - {x: -55.548386, y: 15.391554}
+        - {x: -62.80645, y: 8.131788}
+        - {x: -62.80645, y: 5.7118664}
+        - {x: -60.387096, y: 5.7118664}
+      - - {x: 63.000004, y: 44.43062}
+        - {x: 55.74194, y: 51.690384}
+        - {x: 58.161293, y: 54.110306}
+        - {x: 58.161293, y: 61.37007}
+        - {x: 50.90323, y: 68.62984}
+        - {x: 58.161293, y: 87.98921}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3782
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.50494}
+        - {x: 69, y: -93.50494}
+        - {x: 69, y: 94}
+      - - {x: -62.709675, y: -23.327196}
+        - {x: -62.709675, y: -42.686573}
+        - {x: -57.870964, y: -54.786182}
+        - {x: -45.77419, y: -66.885796}
+      - - {x: -60.290318, y: 87.98921}
+        - {x: -19.161285, y: 90.409134}
+        - {x: -33.677414, y: 90.409134}
+        - {x: -40.93548, y: 83.14937}
+        - {x: -50.6129, y: 75.8896}
+        - {x: -57.870964, y: 58.95015}
+        - {x: -55.45161, y: 44.43062}
+        - {x: -62.709675, y: 37.170853}
+        - {x: -62.709675, y: 25.071241}
+        - {x: -53.032253, y: 12.971632}
+        - {x: -57.870964, y: 15.391554}
+        - {x: -65.12903, y: 8.131788}
+        - {x: -62.709675, y: 5.7118664}
+        - {x: -60.290318, y: 5.7118664}
+      - - {x: 60.677425, y: 32.33101}
+        - {x: 60.677425, y: 44.43062}
+        - {x: 55.838715, y: 49.270462}
+        - {x: 55.838715, y: 61.37007}
+        - {x: 48.58065, y: 68.62984}
+        - {x: 55.838715, y: 20.231398}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_23
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3782
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.50494}
+        - {x: 69, y: -93.50494}
+        - {x: 69, y: 94}
+      - - {x: -62.612915, y: -25.747118}
+        - {x: -62.612915, y: -45.106495}
+        - {x: -55.35485, y: -54.786182}
+        - {x: -57.774208, y: -59.626026}
+        - {x: -60.19356, y: -81.40533}
+      - - {x: -26.322594, y: 94}
+        - {x: -52.935497, y: 71.04976}
+        - {x: -57.774208, y: 56.530228}
+        - {x: -57.774208, y: 44.43062}
+        - {x: -55.35485, y: 42.010696}
+        - {x: -55.35485, y: 44.43062}
+        - {x: -62.612915, y: 37.170853}
+        - {x: -65.03227, y: 22.65132}
+        - {x: -65.03227, y: 3.2919445}
+        - {x: -60.19356, y: 0.8720226}
+        - {x: -14.225819, y: 5.7118664}
+      - - {x: 60.77418, y: 37.170853}
+        - {x: 60.77418, y: 44.43062}
+        - {x: 53.516117, y: 51.690384}
+        - {x: 53.516117, y: 49.270462}
+        - {x: 55.935474, y: 51.690384}
+        - {x: 55.935474, y: 61.37007}
+        - {x: 48.67741, y: 68.62984}
+        - {x: 55.935474, y: 22.65132}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_24
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3782
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.50494}
+        - {x: 69, y: -93.50494}
+        - {x: 69, y: 94}
+      - - {x: 58.451622, y: 32.33101}
+        - {x: 58.451622, y: 44.43062}
+        - {x: 53.61291, y: 49.270462}
+        - {x: 56.03227, y: 56.530228}
+        - {x: 56.03227, y: 61.37007}
+        - {x: 48.774204, y: 68.62984}
+        - {x: 56.03227, y: 22.65132}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3593
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.751}
+        - {x: 69, y: -93.751}
+        - {x: 69, y: 94}
+      - - {x: -58.064518, y: 87.74314}
+        - {x: 16.935484, y: 90.16306}
+        - {x: 9.67742, y: 90.16306}
+        - {x: 4.83871, y: 82.9033}
+        - {x: 2.419355, y: 82.9033}
+        - {x: -4.83871, y: 90.16306}
+        - {x: -24.193548, y: 90.16306}
+        - {x: -48.387096, y: 65.963844}
+        - {x: -53.225807, y: 58.704082}
+        - {x: -55.64516, y: 41.764626}
+        - {x: -45.967743, y: 7.88572}
+        - {x: -41.129032, y: 0.6259539}
+        - {x: -33.870968, y: -1.793968}
+        - {x: -26.612904, y: -11.473656}
+        - {x: -24.193548, y: -11.473656}
+        - {x: -33.870968, y: -1.793968}
+        - {x: -41.129032, y: -1.793968}
+        - {x: -58.064518, y: -18.733421}
+        - {x: -58.064518, y: -50.192406}
+        - {x: -50.806454, y: -69.55178}
+        - {x: -60.48387, y: -74.391624}
+        - {x: -60.48387, y: -79.23147}
+        - {x: -58.064518, y: -79.23147}
+      - - {x: 50.806454, y: -4.21389}
+        - {x: 48.387096, y: -1.793968}
+        - {x: 48.387096, y: -4.21389}
+        - {x: 55.64516, y: 3.0458758}
+        - {x: 55.64516, y: 15.145486}
+        - {x: 53.225807, y: 29.665018}
+        - {x: 53.225807, y: 32.084938}
+        - {x: 62.903225, y: 41.764626}
+        - {x: 60.48387, y: 46.60447}
+        - {x: 60.48387, y: -40.51272}
+        - {x: 58.064518, y: -38.092796}
+      - - {x: 60.48387, y: 78.06345}
+        - {x: 50.806454, y: 87.74314}
+        - {x: 60.48387, y: 68.383766}
+        - {x: 62.903225, y: 70.80369}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3593
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.751}
+        - {x: 69, y: -93.751}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: 87.74314}
+        - {x: 19.451616, y: 90.16306}
+        - {x: 14.6129055, y: 92.582985}
+        - {x: -24.096773, y: 90.16306}
+        - {x: -38.6129, y: 78.06345}
+        - {x: -50.709675, y: 63.543926}
+        - {x: -55.548386, y: 56.284157}
+        - {x: -55.548386, y: 44.184547}
+        - {x: -48.29032, y: 5.465798}
+        - {x: -38.6129, y: 0.6259539}
+        - {x: -36.193546, y: 0.6259539}
+        - {x: -26.516127, y: -9.053734}
+        - {x: -33.774193, y: -1.793968}
+        - {x: -43.45161, y: -1.793968}
+        - {x: -60.387096, y: -18.733421}
+        - {x: -60.387096, y: -38.092796}
+        - {x: -57.96774, y: -52.612328}
+        - {x: -50.709675, y: -67.13186}
+        - {x: -62.80645, y: -76.81155}
+        - {x: -62.80645, y: -81.65139}
+        - {x: -60.387096, y: -81.65139}
+      - - {x: 58.161293, y: 12.725564}
+        - {x: 58.161293, y: 39.344704}
+        - {x: 63.000004, y: 44.184547}
+        - {x: 60.580647, y: 51.444313}
+        - {x: 58.161293, y: -40.51272}
+        - {x: 55.74194, y: -38.092796}
+      - - {x: 60.580647, y: 73.22361}
+        - {x: 46.064518, y: 90.16306}
+        - {x: 38.806454, y: 90.16306}
+        - {x: 60.580647, y: 61.124004}
+        - {x: 63.000004, y: 63.543926}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3593
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.751}
+        - {x: 69, y: -93.751}
+        - {x: 69, y: 94}
+      - - {x: -60.290318, y: 87.74314}
+        - {x: 17.129038, y: 90.16306}
+        - {x: 14.709682, y: 92.582985}
+        - {x: 2.6129076, y: 82.9033}
+        - {x: 0.19355282, y: 82.9033}
+        - {x: -7.064512, y: 90.16306}
+        - {x: -23.999996, y: 90.16306}
+        - {x: -31.25806, y: 87.74314}
+        - {x: -53.032253, y: 68.383766}
+        - {x: -57.870964, y: 39.344704}
+        - {x: -48.193546, y: 5.465798}
+        - {x: -43.354836, y: 0.6259539}
+        - {x: -36.09677, y: -1.793968}
+        - {x: -43.354836, y: -1.793968}
+        - {x: -60.290318, y: -18.733421}
+        - {x: -60.290318, y: -45.352562}
+        - {x: -57.870964, y: -55.03225}
+        - {x: -50.6129, y: -67.13186}
+        - {x: -62.709675, y: -79.23147}
+        - {x: -60.290318, y: -79.23147}
+      - - {x: -69, y: 94}
+        - {x: 46.161297, y: -4.21389}
+        - {x: 53.41936, y: 3.0458758}
+        - {x: 53.41936, y: 15.145486}
+        - {x: 2.6129076, y: 94}
+      - - {x: 46.161297, y: 90.16306}
+        - {x: 38.903233, y: 90.16306}
+        - {x: 58.258068, y: 70.80369}
+        - {x: 60.677425, y: 73.22361}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_28
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3593
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.751}
+        - {x: 69, y: -93.751}
+        - {x: 69, y: 94}
+      - - {x: -60.19356, y: 87.74314}
+        - {x: 14.80644, y: 90.16306}
+        - {x: 7.5483756, y: 90.16306}
+        - {x: 2.7096655, y: 82.9033}
+        - {x: -2.129044, y: 82.9033}
+        - {x: -9.387109, y: 90.16306}
+        - {x: -26.322594, y: 90.16306}
+        - {x: -60.19356, y: 56.284157}
+        - {x: -57.774208, y: 36.92478}
+        - {x: -50.51614, y: 5.465798}
+        - {x: -40.838722, y: 0.6259539}
+        - {x: -38.41937, y: 0.6259539}
+        - {x: -28.741947, y: -9.053734}
+        - {x: -36.00001, y: -1.793968}
+        - {x: -43.258076, y: -1.793968}
+        - {x: -62.612915, y: -21.153343}
+        - {x: -60.19356, y: -50.192406}
+        - {x: -57.774208, y: -57.45217}
+        - {x: -55.35485, y: -69.55178}
+        - {x: -65.03227, y: -79.23147}
+        - {x: -62.612915, y: -81.65139}
+        - {x: -60.19356, y: -79.23147}
+      - - {x: 53.516117, y: 12.725564}
+        - {x: 48.67741, y: 27.245096}
+        - {x: 58.354828, y: 39.344704}
+        - {x: 58.354828, y: 46.60447}
+        - {x: 58.354828, y: -40.51272}
+        - {x: 55.935474, y: -38.092796}
+      - - {x: 58.354828, y: 78.06345}
+        - {x: 46.258053, y: 87.74314}
+        - {x: 43.8387, y: 87.74314}
+        - {x: 38.99999, y: 92.582985}
+        - {x: 34.161278, y: 90.16306}
+        - {x: 58.354828, y: 65.963844}
+        - {x: 60.77418, y: 68.383766}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_29
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3593
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.751}
+        - {x: 69, y: -93.751}
+        - {x: 69, y: 94}
+      - - {x: 7.64517, y: 29.665018}
+        - {x: 43.935493, y: -4.21389}
+        - {x: 53.61291, y: 5.465798}
+        - {x: 53.61291, y: 10.305642}
+        - {x: 56.03227, y: 36.92478}
+        - {x: 56.03227, y: 39.344704}
+        - {x: 60.87098, y: 44.184547}
+        - {x: 58.451622, y: 51.444313}
+      - - {x: 60.87098, y: 68.383766}
+        - {x: 58.451622, y: 75.64353}
+        - {x: 43.935493, y: 90.16306}
+        - {x: 36.67743, y: 90.16306}
+        - {x: 58.451622, y: 58.704082}
+        - {x: 60.87098, y: 61.124004}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3404
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.99707}
+        - {x: 69, y: -93.99707}
+        - {x: 69, y: 94}
+      - - {x: -60.48387, y: -77.05762}
+        - {x: -53.225807, y: -84.31738}
+        - {x: -50.806454, y: -84.31738}
+        - {x: -48.387096, y: -81.89746}
+        - {x: -58.064518, y: -81.89746}
+      - - {x: 26.612904, y: -79.47754}
+        - {x: 38.70968, y: -69.79785}
+        - {x: 26.612904, y: -81.89746}
+        - {x: 16.935484, y: -81.89746}
+      - - {x: -60.48387, y: 58.45801}
+        - {x: -62.903225, y: 56.03809}
+        - {x: -55.64516, y: 48.778324}
+        - {x: -53.225807, y: 29.41895}
+        - {x: -50.806454, y: 22.159184}
+        - {x: -48.387096, y: -31.0791}
+        - {x: -60.48387, y: -40.75879}
+        - {x: -60.48387, y: -43.17871}
+        - {x: -58.064518, y: -43.17871}
+      - - {x: 9.67742, y: 87.49708}
+        - {x: 9.67742, y: 85.077156}
+        - {x: 50.806454, y: 89.917}
+        - {x: 41.129032, y: 85.077156}
+        - {x: 26.612904, y: 82.657234}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3404
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.99707}
+        - {x: 69, y: -93.99707}
+        - {x: 69, y: 94}
+      - - {x: -62.80645, y: -72.21777}
+        - {x: -65.22581, y: -74.637695}
+        - {x: -57.96774, y: -81.89746}
+        - {x: -60.387096, y: -81.89746}
+      - - {x: 24.290325, y: -79.47754}
+        - {x: 29.129034, y: -74.637695}
+        - {x: 24.290325, y: -81.89746}
+        - {x: 17.03226, y: -81.89746}
+      - - {x: -62.80645, y: 63.297855}
+        - {x: -65.22581, y: 58.45801}
+        - {x: -57.96774, y: 51.198246}
+        - {x: -57.96774, y: 46.358402}
+        - {x: -55.548386, y: 34.258793}
+        - {x: -50.709675, y: 19.739262}
+        - {x: -43.45161, y: 12.479495}
+        - {x: -43.45161, y: 14.899417}
+        - {x: -45.870968, y: 12.479495}
+        - {x: -48.29032, y: 2.799807}
+        - {x: -48.29032, y: -14.139647}
+        - {x: -55.548386, y: -33.499023}
+        - {x: -62.80645, y: -40.75879}
+        - {x: -60.387096, y: -43.17871}
+      - - {x: 7.354841, y: 87.49708}
+        - {x: 7.354841, y: 85.077156}
+        - {x: 50.90323, y: 89.917}
+        - {x: 41.22581, y: 85.077156}
+        - {x: 24.290325, y: 82.657234}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3404
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.99707}
+        - {x: 69, y: -93.99707}
+        - {x: 69, y: 94}
+      - - {x: -62.709675, y: -77.05762}
+        - {x: -55.45161, y: -84.31738}
+        - {x: -53.032253, y: -84.31738}
+        - {x: -50.6129, y: -81.89746}
+        - {x: -60.290318, y: -81.89746}
+      - - {x: 24.387102, y: -79.47754}
+        - {x: 36.483875, y: -69.79785}
+        - {x: 24.387102, y: -81.89746}
+        - {x: 17.129038, y: -81.89746}
+      - - {x: -62.709675, y: 58.45801}
+        - {x: -62.709675, y: 51.198246}
+        - {x: -57.870964, y: 48.778324}
+        - {x: -57.870964, y: 29.41895}
+        - {x: -50.6129, y: -31.0791}
+        - {x: -62.709675, y: -40.75879}
+        - {x: -62.709675, y: -43.17871}
+        - {x: -60.290318, y: -43.17871}
+      - - {x: 7.4516172, y: 87.49708}
+        - {x: 7.4516172, y: 85.077156}
+        - {x: 55.838715, y: 89.917}
+        - {x: 51.000004, y: 92.33692}
+        - {x: 41.322586, y: 85.077156}
+        - {x: 24.387102, y: 82.657234}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_33
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3404
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.99707}
+        - {x: 69, y: -93.99707}
+        - {x: 69, y: 94}
+      - - {x: -62.612915, y: -79.47754}
+        - {x: -60.19356, y: -81.89746}
+        - {x: -50.51614, y: -81.89746}
+        - {x: -60.19356, y: -81.89746}
+      - - {x: 22.064505, y: -79.47754}
+        - {x: 34.161278, y: -72.21777}
+        - {x: 24.48386, y: -81.89746}
+        - {x: 14.80644, y: -81.89746}
+      - - {x: -62.612915, y: 58.45801}
+        - {x: -65.03227, y: 56.03809}
+        - {x: -57.774208, y: 46.358402}
+        - {x: -55.35485, y: 26.999027}
+        - {x: -50.51614, y: -31.0791}
+        - {x: -62.612915, y: -40.75879}
+        - {x: -62.612915, y: -43.17871}
+        - {x: -60.19356, y: -43.17871}
+      - - {x: 17.225796, y: 85.077156}
+        - {x: 5.1290207, y: 87.49708}
+        - {x: 48.67741, y: 89.917}
+        - {x: 38.99999, y: 85.077156}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_34
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3404
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.99707}
+        - {x: 69, y: -93.99707}
+        - {x: 69, y: 94}
+      - - {x: 14.9032345, y: -79.47754}
+        - {x: 22.161299, y: -79.47754}
+        - {x: 22.161299, y: -81.89746}
+        - {x: 14.9032345, y: -81.89746}
+      - - {x: 5.2258153, y: 87.49708}
+        - {x: 5.2258153, y: 85.077156}
+        - {x: 48.774204, y: 89.917}
+        - {x: 22.161299, y: 82.657234}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3215
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -55.64516, y: -26.485325}
+        - {x: -38.70968, y: -41.004856}
+        - {x: -45.967743, y: -55.524387}
+        - {x: -58.064518, y: -84.56345}
+      - - {x: -58.064518, y: 84.831085}
+        - {x: -58.064518, y: 36.432644}
+        - {x: -60.48387, y: 34.012722}
+        - {x: -58.064518, y: 34.012722}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_36
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3215
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -57.96774, y: -26.485325}
+        - {x: -41.032257, y: -21.645481}
+        - {x: -48.29032, y: -62.784153}
+        - {x: -60.387096, y: -84.56345}
+      - - {x: 7.354841, y: 87.25101}
+        - {x: 2.5161314, y: 87.25101}
+        - {x: -7.1612883, y: 79.99124}
+        - {x: -36.193546, y: 72.731476}
+        - {x: -57.96774, y: 46.112335}
+        - {x: -57.96774, y: 36.432644}
+        - {x: -60.387096, y: 34.012722}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_37
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3215
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.290318, y: -24.065403}
+        - {x: -45.77419, y: -24.065403}
+        - {x: -33.677414, y: -11.965794}
+        - {x: -60.290318, y: -84.56345}
+      - - {x: -60.290318, y: 84.831085}
+        - {x: -60.290318, y: 38.852566}
+        - {x: -62.709675, y: 34.012722}
+        - {x: -60.290318, y: 34.012722}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_38
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3215
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -57.774208, y: -26.485325}
+        - {x: -38.41937, y: -16.805637}
+        - {x: -45.677433, y: -57.94431}
+        - {x: -60.19356, y: -84.56345}
+      - - {x: -60.19356, y: 84.831085}
+        - {x: -60.19356, y: 36.432644}
+        - {x: -62.612915, y: 34.012722}
+        - {x: -60.19356, y: 34.012722}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_39
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3215
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3026
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 43.54839, y: -82.389595}
+        - {x: 45.967743, y: -87.22944}
+        - {x: 31.451612, y: -87.22944}
+        - {x: 33.870968, y: -87.22944}
+      - - {x: -60.48387, y: -60.610302}
+        - {x: -55.64516, y: -70.289986}
+        - {x: -60.48387, y: -79.96967}
+        - {x: -58.064518, y: -79.96967}
+      - - {x: -53.225807, y: 16.827202}
+        - {x: -62.903225, y: 7.1475134}
+        - {x: -60.48387, y: 4.7275915}
+        - {x: -58.064518, y: 7.1475134}
+      - - {x: 58.064518, y: 84.585014}
+        - {x: -12.096774, y: 87.00494}
+        - {x: -33.870968, y: 87.00494}
+        - {x: -41.129032, y: 84.585014}
+        - {x: -58.064518, y: 67.64556}
+        - {x: -58.064518, y: 65.22564}
+        - {x: -60.48387, y: 62.805717}
+        - {x: -58.064518, y: 62.805717}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3026
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 33.967743, y: -87.22944}
+        - {x: 43.645164, y: -84.80952}
+        - {x: 31.54839, y: -87.22944}
+      - - {x: -62.80645, y: -53.350536}
+        - {x: -65.22581, y: -55.77046}
+        - {x: -60.387096, y: -60.610302}
+        - {x: -57.96774, y: -72.70991}
+        - {x: -62.80645, y: -79.96967}
+        - {x: -60.387096, y: -79.96967}
+      - - {x: -60.387096, y: 19.247124}
+        - {x: -57.96774, y: 19.247124}
+        - {x: -55.548386, y: 21.667046}
+        - {x: -57.96774, y: 21.667046}
+        - {x: -53.129032, y: 16.827202}
+        - {x: -65.22581, y: 4.7275915}
+        - {x: -62.80645, y: 2.3076696}
+        - {x: -60.387096, y: 4.7275915}
+      - - {x: 58.161293, y: 84.585014}
+        - {x: -11.999998, y: 87.00494}
+        - {x: -33.774193, y: 87.00494}
+        - {x: -41.032257, y: 84.585014}
+        - {x: -60.387096, y: 65.22564}
+        - {x: -60.387096, y: 62.805717}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_42
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3026
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 41.322586, y: -82.389595}
+        - {x: 43.74194, y: -87.22944}
+        - {x: 31.645166, y: -87.22944}
+        - {x: 34.06452, y: -87.22944}
+      - - {x: -62.709675, y: -55.77046}
+        - {x: -57.870964, y: -70.289986}
+        - {x: -62.709675, y: -79.96967}
+        - {x: -60.290318, y: -79.96967}
+      - - {x: -55.45161, y: 16.827202}
+        - {x: -62.709675, y: 11.987357}
+        - {x: -62.709675, y: 7.1475134}
+        - {x: -60.290318, y: 7.1475134}
+      - - {x: 55.838715, y: 84.585014}
+        - {x: -14.3225765, y: 87.00494}
+        - {x: -33.677414, y: 87.00494}
+        - {x: -36.09677, y: 84.585014}
+        - {x: -40.93548, y: 84.585014}
+        - {x: -60.290318, y: 65.22564}
+        - {x: -60.290318, y: 62.805717}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_43
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3026
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 41.419342, y: -82.389595}
+        - {x: 43.8387, y: -87.22944}
+        - {x: 29.322569, y: -87.22944}
+        - {x: 31.741924, y: -87.22944}
+      - - {x: -62.612915, y: -60.610302}
+        - {x: -57.774208, y: -67.87006}
+        - {x: -62.612915, y: -77.54975}
+        - {x: -60.19356, y: -77.54975}
+      - - {x: -55.35485, y: 16.827202}
+        - {x: -65.03227, y: 7.1475134}
+        - {x: -62.612915, y: 4.7275915}
+        - {x: -60.19356, y: 7.1475134}
+      - - {x: 55.935474, y: 84.585014}
+        - {x: -14.225819, y: 87.00494}
+        - {x: -36.00001, y: 87.00494}
+        - {x: -43.258076, y: 84.585014}
+        - {x: -60.19356, y: 67.64556}
+        - {x: -60.19356, y: 65.22564}
+        - {x: -62.612915, y: 62.805717}
+        - {x: -60.19356, y: 62.805717}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_44
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3026
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 41.51614, y: -84.80952}
+        - {x: 29.419365, y: -87.22944}
+        - {x: 31.838718, y: -87.22944}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2837
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 62.903225, y: -70.536354}
+        - {x: 58.064518, y: -60.856667}
+        - {x: 60.48387, y: -75.3762}
+        - {x: 62.903225, y: -72.956276}
+      - - {x: -58.064518, y: 84.33865}
+        - {x: -58.064518, y: -12.458226}
+        - {x: -55.64516, y: -17.29807}
+        - {x: -62.903225, y: -26.977758}
+        - {x: -60.48387, y: -41.497288}
+        - {x: -58.064518, y: -39.077366}
+      - - {x: 58.064518, y: 62.559353}
+        - {x: 55.64516, y: 69.81912}
+        - {x: 36.29032, y: 84.33865}
+        - {x: 58.064518, y: 84.33865}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_46
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2837
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 58.161293, y: -65.69651}
+        - {x: 58.161293, y: -60.856667}
+        - {x: 60.580647, y: -77.79612}
+        - {x: 63.000004, y: -75.3762}
+      - - {x: -60.387096, y: 84.33865}
+        - {x: -60.387096, y: 4.4812274}
+        - {x: -57.96774, y: -12.458226}
+        - {x: -55.548386, y: -17.29807}
+        - {x: -65.22581, y: -26.977758}
+        - {x: -65.22581, y: -58.436745}
+        - {x: -62.80645, y: -70.536354}
+        - {x: -60.387096, y: -72.956276}
+      - - {x: 58.161293, y: 60.13943}
+        - {x: 53.322582, y: 72.239044}
+        - {x: 33.967743, y: 84.33865}
+        - {x: 58.161293, y: 84.33865}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_47
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2837
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -62.709675, y: -56.016823}
+        - {x: -62.709675, y: -72.956276}
+        - {x: -60.290318, y: -72.956276}
+      - - {x: 58.258068, y: -60.856667}
+        - {x: 55.838715, y: -60.856667}
+        - {x: 58.258068, y: -72.956276}
+        - {x: 60.677425, y: -70.536354}
+      - - {x: -60.290318, y: 84.33865}
+        - {x: -60.290318, y: -10.038304}
+        - {x: -55.45161, y: -17.29807}
+        - {x: -65.12903, y: -26.977758}
+        - {x: -62.709675, y: -43.91721}
+        - {x: -60.290318, y: -41.497288}
+      - - {x: 55.838715, y: 62.559353}
+        - {x: 53.41936, y: 69.81912}
+        - {x: 38.903233, y: 81.91873}
+        - {x: 55.838715, y: 84.33865}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_48
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2837
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 55.935474, y: -65.69651}
+        - {x: 55.935474, y: -60.856667}
+        - {x: 58.354828, y: -75.3762}
+        - {x: 60.77418, y: -72.956276}
+      - - {x: -60.19356, y: 84.33865}
+        - {x: -60.19356, y: -12.458226}
+        - {x: -57.774208, y: -17.29807}
+        - {x: -62.612915, y: -24.557837}
+        - {x: -60.19356, y: -24.557837}
+      - - {x: 55.935474, y: 62.559353}
+        - {x: 53.516117, y: 69.81912}
+        - {x: 34.161278, y: 84.33865}
+        - {x: 55.935474, y: 84.33865}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_49
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2837
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: 86.758575}
+        - {x: 68.12904, y: 86.758575}
+        - {x: 69, y: 89.1785}
+        - {x: 69, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2648
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.77168}
+        - {x: 69, y: -93.77168}
+        - {x: 69, y: 94}
+      - - {x: -50.806454, y: -64.73262}
+        - {x: -24.193548, y: -55.05293}
+        - {x: -33.870968, y: -81.67207}
+        - {x: -58.064518, y: -84.091995}
+      - - {x: 24.193548, y: -81.67207}
+        - {x: 24.193548, y: -84.091995}
+      - - {x: -53.225807, y: 36.904106}
+        - {x: -62.903225, y: 27.224417}
+        - {x: -60.48387, y: 24.804495}
+        - {x: -58.064518, y: 85.30254}
+        - {x: -16.935484, y: 85.30254}
+        - {x: -16.935484, y: 87.722466}
+        - {x: -19.35484, y: 87.722466}
+        - {x: -26.612904, y: 80.4627}
+        - {x: -26.612904, y: 56.26348}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2648
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.77168}
+        - {x: 69, y: -93.77168}
+        - {x: 69, y: 94}
+      - - {x: -45.870968, y: -59.892773}
+        - {x: -24.096773, y: -59.892773}
+        - {x: -31.354837, y: -84.091995}
+        - {x: -60.387096, y: -84.091995}
+      - - {x: 26.70968, y: -84.091995}
+        - {x: 21.87097, y: -84.091995}
+      - - {x: -55.548386, y: 36.904106}
+        - {x: -62.80645, y: 29.644339}
+        - {x: -62.80645, y: 27.224417}
+        - {x: -60.387096, y: 27.224417}
+        - {x: -60.387096, y: 85.30254}
+        - {x: -16.838707, y: 85.30254}
+        - {x: -16.838707, y: 87.722466}
+        - {x: -19.258062, y: 87.722466}
+        - {x: -26.516127, y: 80.4627}
+        - {x: -26.516127, y: 39.324028}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2648
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.77168}
+        - {x: 69, y: -93.77168}
+        - {x: 69, y: 94}
+      - - {x: -23.1828, y: -35.93091}
+        - {x: 62.649017, y: -87.36865}
+        - {x: -60.290314, y: -88.020996}
+        - {x: -61.21228, y: 84.380615}
+        - {x: -23.653442, y: 84.500244}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_53
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2648
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.77168}
+        - {x: 69, y: -93.77168}
+        - {x: 69, y: 94}
+      - - {x: -48.096786, y: -59.892773}
+        - {x: -26.322594, y: -59.892773}
+        - {x: -36.00001, y: -81.67207}
+        - {x: -60.19356, y: -84.091995}
+      - - {x: 24.48386, y: -84.091995}
+        - {x: 22.064505, y: -84.091995}
+      - - {x: -57.774208, y: 36.904106}
+        - {x: -65.03227, y: 29.644339}
+        - {x: -62.612915, y: 24.804495}
+        - {x: -19.064528, y: 85.30254}
+        - {x: -19.064528, y: 87.722466}
+        - {x: -21.483883, y: 87.722466}
+        - {x: -28.741947, y: 80.4627}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_54
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2648
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: -94}
+        - {x: -69, y: 94}
+        - {x: 69, y: 94}
+        - {x: 69, y: -94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2459
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.48387, y: -21.419943}
+        - {x: -55.64516, y: -26.259787}
+        - {x: -41.129032, y: -35.939476}
+        - {x: -50.806454, y: -50.459007}
+        - {x: -58.064518, y: -60.138695}
+      - - {x: -58.064518, y: 85.056625}
+        - {x: -9.67742, y: 87.47655}
+        - {x: -12.096774, y: 89.89647}
+        - {x: -24.193548, y: 77.79686}
+        - {x: -26.612904, y: 77.79686}
+        - {x: -41.129032, y: 60.857403}
+        - {x: -41.129032, y: 39.078106}
+        - {x: -38.70968, y: 36.658184}
+        - {x: -38.70968, y: 29.398418}
+        - {x: -33.870968, y: 24.558575}
+        - {x: -31.451612, y: 26.978497}
+        - {x: -38.70968, y: 34.238262}
+        - {x: -48.387096, y: 34.238262}
+        - {x: -55.64516, y: 26.978497}
+        - {x: -55.64516, y: 24.558575}
+        - {x: -58.064518, y: 24.558575}
+        - {x: -60.48387, y: 22.138653}
+        - {x: -58.064518, y: 22.138653}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_56
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2459
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -62.80645, y: -16.5801}
+        - {x: -65.22581, y: -19.000021}
+        - {x: -57.96774, y: -26.259787}
+        - {x: -41.032257, y: -38.359398}
+        - {x: -60.387096, y: -60.138695}
+        - {x: -60.387096, y: -62.558617}
+      - - {x: -60.387096, y: 85.056625}
+        - {x: -9.580643, y: 87.47655}
+        - {x: -11.999998, y: 89.89647}
+        - {x: -36.193546, y: 65.69725}
+        - {x: -41.032257, y: 53.597637}
+        - {x: -41.032257, y: 34.238262}
+        - {x: -36.193546, y: 26.978497}
+        - {x: -41.032257, y: 34.238262}
+        - {x: -50.709675, y: 34.238262}
+        - {x: -57.96774, y: 26.978497}
+        - {x: -57.96774, y: 24.558575}
+        - {x: -60.387096, y: 24.558575}
+        - {x: -62.80645, y: 22.138653}
+        - {x: -60.387096, y: 22.138653}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_57
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2459
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -57.870964, y: -26.259787}
+        - {x: -33.677414, y: -45.619164}
+        - {x: -38.516125, y: -50.459007}
+        - {x: -55.45161, y: -48.039085}
+      - - {x: -60.290318, y: 85.056625}
+        - {x: -40.93548, y: 56.01756}
+        - {x: -40.93548, y: 31.81834}
+        - {x: -36.09677, y: 24.558575}
+        - {x: -33.677414, y: 26.978497}
+        - {x: -40.93548, y: 34.238262}
+        - {x: -50.6129, y: 34.238262}
+        - {x: -57.870964, y: 26.978497}
+        - {x: -57.870964, y: 24.558575}
+        - {x: -60.290318, y: 24.558575}
+        - {x: -62.709675, y: 22.138653}
+        - {x: -60.290318, y: 22.138653}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_58
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2459
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -62.612915, y: -21.419943}
+        - {x: -52.935497, y: -50.459007}
+        - {x: -62.612915, y: -60.138695}
+        - {x: -60.19356, y: -60.138695}
+      - - {x: -60.19356, y: 85.056625}
+        - {x: -11.806463, y: 87.47655}
+        - {x: -14.225819, y: 89.89647}
+        - {x: -38.41937, y: 65.69725}
+        - {x: -43.258076, y: 53.597637}
+        - {x: -43.258076, y: 39.078106}
+        - {x: -40.838722, y: 36.658184}
+        - {x: -40.838722, y: 29.398418}
+        - {x: -38.41937, y: 26.978497}
+        - {x: -45.677433, y: 36.658184}
+        - {x: -48.096786, y: 36.658184}
+        - {x: -57.774208, y: 26.978497}
+        - {x: -57.774208, y: 24.558575}
+        - {x: -60.19356, y: 24.558575}
+        - {x: -62.612915, y: 22.138653}
+        - {x: -60.19356, y: 22.138653}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_59
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2459
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: -94}
+        - {x: -69, y: 94}
+        - {x: 69, y: 94}
+        - {x: 69, y: -94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2270
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -53.225807, y: 48.511726}
+        - {x: -58.064518, y: 84.810555}
+        - {x: 36.29032, y: 87.23048}
+        - {x: 29.032259, y: 87.23048}
+        - {x: 12.096774, y: 67.8711}
+        - {x: -21.774195, y: 65.45118}
+        - {x: -33.870968, y: 55.771492}
+        - {x: -41.129032, y: 53.35157}
+        - {x: -48.387096, y: 43.671883}
+        - {x: -45.967743, y: 43.671883}
+        - {x: -45.967743, y: 46.091805}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2270
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -62.80645, y: -38.605465}
+        - {x: -62.80645, y: -48.285152}
+        - {x: -60.387096, y: -48.285152}
+      - - {x: -60.387096, y: 84.810555}
+        - {x: 38.806454, y: 87.23048}
+        - {x: 33.967743, y: 89.6504}
+        - {x: 21.87097, y: 79.97071}
+        - {x: -21.677418, y: 65.45118}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_62
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2270
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 43.74194, y: 87.23048}
+        - {x: 34.06452, y: 89.6504}
+        - {x: 26.806456, y: 87.23048}
+        - {x: -28.838705, y: 65.45118}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_63
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2270
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -55.35485, y: 48.511726}
+        - {x: -60.19356, y: 84.810555}
+        - {x: 34.161278, y: 87.23048}
+        - {x: 26.903214, y: 87.23048}
+        - {x: 9.9677305, y: 67.8711}
+        - {x: -23.903238, y: 65.45118}
+        - {x: -36.00001, y: 55.771492}
+        - {x: -43.258076, y: 53.35157}
+        - {x: -50.51614, y: 43.671883}
+        - {x: -48.096786, y: 43.671883}
+        - {x: -48.096786, y: 46.091805}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_64
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2270
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: -87.00391}
+        - {x: -69, y: -87.00391}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2081
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.29993}
+        - {x: 69, y: -93.29993}
+        - {x: 69, y: 94}
+      - - {x: 0, y: -83.62024}
+        - {x: 48.387096, y: -83.62024}
+        - {x: -12.096774, y: -83.62024}
+        - {x: -9.67742, y: -86.04016}
+      - - {x: -60.48387, y: 22.856329}
+        - {x: -62.903225, y: 18.016485}
+        - {x: -58.064518, y: 8.336797}
+        - {x: -58.064518, y: -11.022579}
+        - {x: -53.225807, y: -32.801876}
+        - {x: -58.064518, y: -40.06164}
+      - - {x: -58.064518, y: 88.19422}
+        - {x: -60.48387, y: 51.895393}
+        - {x: -60.48387, y: 42.215702}
+        - {x: -58.064518, y: 42.215702}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_66
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2081
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.29993}
+        - {x: 69, y: -93.29993}
+        - {x: 69, y: 94}
+      - - {x: -2.3225784, y: -83.62024}
+        - {x: 21.87097, y: -78.780396}
+        - {x: 24.290325, y: -76.36047}
+        - {x: 36.3871, y: -83.62024}
+        - {x: 48.483875, y: -83.62024}
+        - {x: -14.419353, y: -83.62024}
+        - {x: -11.999998, y: -86.04016}
+      - - {x: -60.387096, y: 88.19422}
+        - {x: -65.22581, y: 39.79578}
+        - {x: -65.22581, y: 20.436407}
+        - {x: -62.80645, y: 13.1766405}
+        - {x: -57.96774, y: 8.336797}
+        - {x: -57.96774, y: -18.282345}
+        - {x: -53.129032, y: -32.801876}
+        - {x: -62.80645, y: -42.481564}
+        - {x: -60.387096, y: -42.481564}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_67
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2081
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.29993}
+        - {x: 69, y: -93.29993}
+        - {x: 69, y: 94}
+      - - {x: -2.225802, y: -83.62024}
+        - {x: 34.06452, y: -81.20032}
+        - {x: 43.74194, y: -86.04016}
+        - {x: 51.000004, y: -83.62024}
+        - {x: -14.3225765, y: -83.62024}
+        - {x: -11.903221, y: -86.04016}
+      - - {x: -62.709675, y: 25.27625}
+        - {x: -65.12903, y: 18.016485}
+        - {x: -57.870964, y: 3.4969525}
+        - {x: -60.290318, y: 1.0770307}
+        - {x: -60.290318, y: -6.182735}
+        - {x: -57.870964, y: -23.122189}
+        - {x: -53.032253, y: -32.801876}
+        - {x: -62.709675, y: -42.481564}
+        - {x: -60.290318, y: -42.481564}
+      - - {x: -60.290318, y: 88.19422}
+        - {x: -65.12903, y: 44.635624}
+        - {x: -62.709675, y: 32.536015}
+        - {x: -60.290318, y: 34.955936}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_68
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2081
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.29993}
+        - {x: 69, y: -93.29993}
+        - {x: 69, y: 94}
+      - - {x: -2.129044, y: -83.62024}
+        - {x: 46.258053, y: -83.62024}
+        - {x: -14.225819, y: -83.62024}
+        - {x: -11.806463, y: -86.04016}
+      - - {x: -62.612915, y: 20.436407}
+        - {x: -65.03227, y: 15.596562}
+        - {x: -60.19356, y: 8.336797}
+        - {x: -60.19356, y: -13.442501}
+        - {x: -57.774208, y: -25.54211}
+        - {x: -55.35485, y: -32.801876}
+        - {x: -60.19356, y: -40.06164}
+      - - {x: -60.19356, y: 88.19422}
+        - {x: -62.612915, y: 51.895393}
+        - {x: -62.612915, y: 44.635624}
+        - {x: -60.19356, y: 44.635624}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_69
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2081
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.29993}
+        - {x: 69, y: -93.29993}
+        - {x: 69, y: 94}
+      - - {x: -4.451604, y: -83.62024}
+        - {x: 19.741945, y: -78.780396}
+        - {x: 22.161299, y: -76.36047}
+        - {x: 34.258076, y: -83.62024}
+        - {x: 46.354847, y: -83.62024}
+        - {x: -16.548378, y: -83.62024}
+        - {x: -14.129024, y: -86.04016}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1892
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.546}
+        - {x: 69, y: -93.546}
+        - {x: 69, y: 94}
+      - - {x: -58.064518, y: 87.94815}
+        - {x: -38.70968, y: 87.94815}
+        - {x: -38.70968, y: 90.36807}
+        - {x: -48.387096, y: 83.10831}
+        - {x: -53.225807, y: 71.0087}
+        - {x: -55.64516, y: 63.74893}
+        - {x: -55.64516, y: 41.969635}
+        - {x: -50.806454, y: 32.289948}
+        - {x: -58.064518, y: -16.108492}
+        - {x: -60.48387, y: -23.368258}
+        - {x: -60.48387, y: -35.46787}
+        - {x: -53.225807, y: -52.407322}
+        - {x: -41.129032, y: -62.08701}
+        - {x: -58.064518, y: -81.44638}
+      - - {x: 58.064518, y: -76.60654}
+        - {x: 58.064518, y: -45.147556}
+        - {x: 55.64516, y: -35.46787}
+        - {x: 60.48387, y: -16.108492}
+        - {x: 58.064518, y: -81.44638}
+        - {x: 50.806454, y: -83.8663}
+        - {x: 53.225807, y: -83.8663}
+      - - {x: 48.387096, y: 92.787994}
+        - {x: 45.967743, y: 90.36807}
+        - {x: 58.064518, y: 87.94815}
+        - {x: 58.064518, y: 85.52823}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1892
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.546}
+        - {x: 69, y: -93.546}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: 87.94815}
+        - {x: -55.548386, y: 41.969635}
+        - {x: -60.387096, y: -20.948336}
+        - {x: -60.387096, y: -37.88779}
+        - {x: -55.548386, y: -49.9874}
+        - {x: -60.387096, y: -81.44638}
+      - - {x: 58.161293, y: -74.186615}
+        - {x: 58.161293, y: -47.56748}
+        - {x: 55.74194, y: -40.307713}
+        - {x: 53.322582, y: -20.948336}
+        - {x: 58.161293, y: -16.108492}
+        - {x: 58.161293, y: -81.44638}
+        - {x: 50.90323, y: -83.8663}
+        - {x: 53.322582, y: -83.8663}
+      - - {x: 53.322582, y: 90.36807}
+        - {x: 46.064518, y: 90.36807}
+        - {x: 58.161293, y: 87.94815}
+        - {x: 58.161293, y: 85.52823}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_72
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1892
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.546}
+        - {x: 69, y: -93.546}
+        - {x: 69, y: 94}
+      - - {x: -40.93548, y: 87.94815}
+        - {x: -40.93548, y: 90.36807}
+        - {x: -57.870964, y: 73.42862}
+        - {x: -60.290318, y: 41.969635}
+        - {x: -55.45161, y: -8.848726}
+        - {x: -62.709675, y: -25.78818}
+        - {x: -62.709675, y: -33.047947}
+        - {x: -60.290318, y: -35.46787}
+        - {x: -57.870964, y: -47.56748}
+        - {x: -60.290318, y: -81.44638}
+      - - {x: 55.838715, y: -76.60654}
+        - {x: 55.838715, y: -42.727634}
+        - {x: 48.58065, y: -33.047947}
+        - {x: 46.161297, y: -18.528414}
+        - {x: 41.322586, y: -16.108492}
+        - {x: 43.74194, y: -20.948336}
+        - {x: 53.41936, y: -20.948336}
+        - {x: 58.258068, y: -16.108492}
+        - {x: 55.838715, y: -81.44638}
+        - {x: 51.000004, y: -83.8663}
+        - {x: 53.41936, y: -83.8663}
+      - - {x: 46.161297, y: 92.787994}
+        - {x: 43.74194, y: 90.36807}
+        - {x: 58.258068, y: 83.10831}
+        - {x: 58.258068, y: 85.52823}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_73
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1892
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.546}
+        - {x: 69, y: -93.546}
+        - {x: 69, y: 94}
+      - - {x: -60.19356, y: 87.94815}
+        - {x: -40.838722, y: 87.94815}
+        - {x: -40.838722, y: 90.36807}
+        - {x: -43.258076, y: 90.36807}
+        - {x: -57.774208, y: 75.84854}
+        - {x: -60.19356, y: 41.969635}
+        - {x: -55.35485, y: -13.68857}
+        - {x: -62.612915, y: -23.368258}
+        - {x: -62.612915, y: -35.46787}
+        - {x: -55.35485, y: -52.407322}
+        - {x: -43.258076, y: -62.08701}
+        - {x: -60.19356, y: -81.44638}
+      - - {x: 55.935474, y: -74.186615}
+        - {x: 55.935474, y: -45.147556}
+        - {x: 53.516117, y: -37.88779}
+        - {x: 58.354828, y: -16.108492}
+        - {x: 55.935474, y: -81.44638}
+        - {x: 48.67741, y: -83.8663}
+        - {x: 51.096764, y: -83.8663}
+      - - {x: 46.258053, y: 92.787994}
+        - {x: 43.8387, y: 90.36807}
+        - {x: 55.935474, y: 87.94815}
+        - {x: 55.935474, y: 85.52823}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_74
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1892
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.546}
+        - {x: 69, y: -93.546}
+        - {x: 69, y: 94}
+      - - {x: 53.61291, y: -40.307713}
+        - {x: 46.354847, y: -23.368258}
+        - {x: 41.51614, y: -18.528414}
+        - {x: 41.51614, y: -20.948336}
+        - {x: 51.193558, y: -20.948336}
+        - {x: 58.451622, y: -13.68857}
+      - - {x: 51.193558, y: 90.36807}
+        - {x: 43.935493, y: 90.36807}
+        - {x: 56.03227, y: 87.94815}
+        - {x: 56.03227, y: 85.52823}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1703
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.79206}
+        - {x: 69, y: -93.79206}
+        - {x: 69, y: 94}
+      - - {x: -55.64516, y: -47.813545}
+        - {x: -50.806454, y: -67.17292}
+        - {x: -45.967743, y: -81.69245}
+        - {x: -58.064518, y: -81.69245}
+      - - {x: 55.64516, y: -72.012764}
+        - {x: 58.064518, y: -64.753}
+        - {x: 58.064518, y: -81.69245}
+        - {x: 55.64516, y: -81.69245}
+      - - {x: -58.064518, y: 87.70208}
+        - {x: -55.64516, y: 36.883724}
+        - {x: -60.48387, y: 32.043877}
+        - {x: -58.064518, y: 32.043877}
+      - - {x: 50.806454, y: 61.082943}
+        - {x: 48.387096, y: 82.862236}
+        - {x: 58.064518, y: 87.70208}
+        - {x: 58.064518, y: 39.303646}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_76
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1703
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.79206}
+        - {x: 69, y: -93.79206}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: -40.55378}
+        - {x: -53.129032, y: -62.333076}
+        - {x: -45.870968, y: -81.69245}
+        - {x: -60.387096, y: -81.69245}
+      - - {x: 55.74194, y: -64.753}
+        - {x: 58.161293, y: -67.17292}
+        - {x: 58.161293, y: -81.69245}
+        - {x: 53.322582, y: -81.69245}
+      - - {x: 60.580647, y: -6.6748724}
+        - {x: 58.161293, y: -6.6748724}
+        - {x: 60.580647, y: -21.194405}
+      - - {x: -60.387096, y: 87.70208}
+        - {x: -28.935482, y: 90.122}
+        - {x: -31.354837, y: 92.54192}
+        - {x: -45.870968, y: 78.02239}
+        - {x: -48.29032, y: 58.66302}
+        - {x: -53.129032, y: 41.723568}
+        - {x: -62.80645, y: 29.623957}
+        - {x: -60.387096, y: 29.623957}
+      - - {x: 48.483875, y: 58.66302}
+        - {x: 46.064518, y: 85.28216}
+        - {x: 58.161293, y: 87.70208}
+        - {x: 58.161293, y: 39.303646}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_77
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1703
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.79206}
+        - {x: 69, y: -93.79206}
+        - {x: 69, y: 94}
+      - - {x: -57.870964, y: -47.813545}
+        - {x: -53.032253, y: -64.753}
+        - {x: -45.77419, y: -81.69245}
+        - {x: -60.290318, y: -81.69245}
+      - - {x: 53.41936, y: -72.012764}
+        - {x: 55.838715, y: -64.753}
+        - {x: 55.838715, y: -81.69245}
+        - {x: 53.41936, y: -81.69245}
+      - - {x: -60.290318, y: 87.70208}
+        - {x: -60.290318, y: 32.043877}
+      - - {x: 48.58065, y: 58.66302}
+        - {x: 46.161297, y: 85.28216}
+        - {x: 55.838715, y: 87.70208}
+        - {x: 53.41936, y: 41.723568}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_78
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1703
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.79206}
+        - {x: 69, y: -93.79206}
+        - {x: 69, y: 94}
+      - - {x: -60.19356, y: -40.55378}
+        - {x: -52.935497, y: -67.17292}
+        - {x: -48.096786, y: -81.69245}
+        - {x: -60.19356, y: -81.69245}
+      - - {x: 53.516117, y: -64.753}
+        - {x: 55.935474, y: -67.17292}
+        - {x: 55.935474, y: -81.69245}
+        - {x: 53.516117, y: -81.69245}
+      - - {x: 58.354828, y: -4.2549505}
+        - {x: 55.935474, y: -6.6748724}
+        - {x: 58.354828, y: -23.614326}
+        - {x: 63.19354, y: -21.194405}
+      - - {x: -33.580658, y: 90.122}
+        - {x: -38.41937, y: 90.122}
+        - {x: -45.677433, y: 82.862236}
+        - {x: -48.096786, y: 75.60247}
+        - {x: -50.51614, y: 56.2431}
+        - {x: -57.774208, y: 36.883724}
+        - {x: -62.612915, y: 32.043877}
+        - {x: -60.19356, y: 32.043877}
+      - - {x: 43.8387, y: 80.442314}
+        - {x: 34.161278, y: 90.122}
+        - {x: 55.935474, y: 87.70208}
+        - {x: 55.935474, y: 39.303646}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_79
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1703
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: 90.122}
+        - {x: -31.064508, y: 90.122}
+        - {x: -57.67741, y: 85.28216}
+        - {x: -69, y: 34.463802}
+        - {x: -69, y: -93.79206}
+        - {x: 69, y: -93.79206}
+        - {x: 69, y: 94}
+      - - {x: 53.61291, y: -72.012764}
+        - {x: 56.03227, y: -67.17292}
+        - {x: 56.03227, y: -81.69245}
+        - {x: 51.193558, y: -81.69245}
+      - - {x: 58.451622, y: -6.6748724}
+        - {x: 56.03227, y: -6.6748724}
+        - {x: 58.451622, y: -21.194405}
+      - - {x: 46.354847, y: 56.2431}
+        - {x: 43.935493, y: 85.28216}
+        - {x: 56.03227, y: 87.70208}
+        - {x: 56.03227, y: 39.303646}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1514
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 58.064518, y: -16.60063}
+        - {x: 58.064518, y: 26.957966}
+        - {x: 55.64516, y: 29.377888}
+        - {x: 60.48387, y: 36.637653}
+        - {x: 58.064518, y: 36.637653}
+        - {x: 60.48387, y: -19.020552}
+        - {x: 60.48387, y: -16.60063}
+      - - {x: -58.064518, y: 85.036095}
+        - {x: -24.193548, y: 85.036095}
+        - {x: -43.54839, y: 55.99703}
+        - {x: -43.54839, y: 53.577106}
+        - {x: -60.48387, y: 39.057575}
+        - {x: -60.48387, y: 34.21773}
+        - {x: -58.064518, y: 34.21773}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1514
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 58.161293, y: 24.538044}
+        - {x: 55.74194, y: 31.79781}
+        - {x: 58.161293, y: 36.637653}
+        - {x: 60.580647, y: -19.020552}
+        - {x: 60.580647, y: -16.60063}
+      - - {x: -60.387096, y: 85.036095}
+        - {x: -24.096773, y: 85.036095}
+        - {x: -21.677418, y: 87.45602}
+        - {x: 4.9354863, y: 89.87594}
+        - {x: 2.5161314, y: 92.29586}
+        - {x: -9.580643, y: 80.19625}
+        - {x: -14.419353, y: 82.61617}
+        - {x: -57.96774, y: 46.31734}
+        - {x: -55.548386, y: 41.477497}
+        - {x: -62.80645, y: 36.637653}
+        - {x: -62.80645, y: 31.79781}
+        - {x: -60.387096, y: 31.79781}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_82
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1514
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 55.838715, y: -16.60063}
+        - {x: 55.838715, y: -4.5010195}
+        - {x: 58.258068, y: -2.0810974}
+        - {x: 58.258068, y: 2.7587464}
+        - {x: 55.838715, y: 5.1786685}
+        - {x: 55.838715, y: 17.278278}
+        - {x: 58.258068, y: 22.118122}
+        - {x: 58.258068, y: 36.637653}
+        - {x: 58.258068, y: -19.020552}
+        - {x: 58.258068, y: -16.60063}
+      - - {x: -60.290318, y: 85.036095}
+        - {x: -23.999996, y: 85.036095}
+        - {x: -31.25806, y: 70.51656}
+        - {x: -62.709675, y: 39.057575}
+        - {x: -62.709675, y: 31.79781}
+        - {x: -60.290318, y: 31.79781}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_83
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1514
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 55.935474, y: 26.957966}
+        - {x: 53.516117, y: 29.377888}
+        - {x: 58.354828, y: 36.637653}
+        - {x: 55.935474, y: 36.637653}
+        - {x: 58.354828, y: -19.020552}
+        - {x: 58.354828, y: -16.60063}
+      - - {x: -26.322594, y: 85.036095}
+        - {x: -55.35485, y: 48.737263}
+        - {x: -55.35485, y: 43.89742}
+        - {x: -65.03227, y: 34.21773}
+        - {x: -62.612915, y: 31.79781}
+        - {x: -60.19356, y: 34.21773}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_84
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1514
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: 89.87594}
+        - {x: -67.35483, y: 87.45602}
+        - {x: -69, y: 77.77633}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 56.03227, y: 24.538044}
+        - {x: 53.61291, y: 31.79781}
+        - {x: 56.03227, y: 36.637653}
+        - {x: 58.451622, y: -19.020552}
+        - {x: 58.451622, y: -16.60063}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1325
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.48387, y: -48.305683}
+        - {x: -62.903225, y: -60.405293}
+        - {x: -53.225807, y: -70.084984}
+        - {x: -43.54839, y: -70.084984}
+        - {x: -19.35484, y: -45.88576}
+        - {x: -16.935484, y: -41.045918}
+        - {x: -26.612904, y: -50.725605}
+        - {x: -26.612904, y: -55.56545}
+        - {x: -58.064518, y: -84.604515}
+      - - {x: 19.35484, y: -77.34475}
+        - {x: 19.35484, y: -70.084984}
+        - {x: 16.935484, y: -70.084984}
+        - {x: 21.774195, y: -74.92483}
+        - {x: 21.774195, y: -77.34475}
+        - {x: 29.032259, y: -87.02444}
+        - {x: 9.67742, y: -84.604515}
+      - - {x: 60.48387, y: -19.26662}
+        - {x: 58.064518, y: -19.26662}
+        - {x: 60.48387, y: -26.526386}
+      - - {x: -58.064518, y: 84.79002}
+        - {x: -58.064518, y: 9.772444}
+        - {x: -60.48387, y: 7.3525214}
+        - {x: -58.064518, y: 7.3525214}
+      - - {x: 62.903225, y: 79.95018}
+        - {x: 58.064518, y: 84.79002}
+        - {x: 60.48387, y: 75.11034}
+        - {x: 62.903225, y: 77.53026}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_86
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1325
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: -26.526386}
+        - {x: -62.80645, y: -26.526386}
+        - {x: -65.22581, y: -31.36623}
+        - {x: -65.22581, y: -50.725605}
+        - {x: -62.80645, y: -60.405293}
+        - {x: -53.129032, y: -70.084984}
+        - {x: -43.45161, y: -70.084984}
+        - {x: -19.258062, y: -45.88576}
+        - {x: -16.838707, y: -41.045918}
+        - {x: -26.516127, y: -50.725605}
+        - {x: -26.516127, y: -55.56545}
+        - {x: -28.935482, y: -65.24514}
+        - {x: -60.387096, y: -84.604515}
+      - - {x: 12.193551, y: -82.18459}
+        - {x: 19.451616, y: -72.504906}
+        - {x: 17.03226, y: -72.504906}
+        - {x: 24.290325, y: -82.18459}
+      - - {x: 58.161293, y: -24.106464}
+        - {x: 58.161293, y: -19.26662}
+        - {x: 60.580647, y: -31.36623}
+        - {x: 63.000004, y: -28.946308}
+      - - {x: -60.387096, y: 84.79002}
+        - {x: -2.3225784, y: 87.209946}
+        - {x: -26.516127, y: 72.690414}
+        - {x: -57.96774, y: 12.192366}
+      - - {x: 63.000004, y: 77.53026}
+        - {x: 58.161293, y: 84.79002}
+        - {x: 60.580647, y: 70.27049}
+        - {x: 63.000004, y: 72.690414}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_87
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1325
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -62.709675, y: -24.106464}
+        - {x: -65.12903, y: -55.56545}
+        - {x: -62.709675, y: -62.825214}
+        - {x: -53.032253, y: -70.084984}
+        - {x: -45.77419, y: -70.084984}
+        - {x: -31.25806, y: -57.98537}
+        - {x: -21.58064, y: -50.725605}
+        - {x: -19.161285, y: -43.46584}
+        - {x: -16.741932, y: -38.625996}
+        - {x: -19.161285, y: -38.625996}
+        - {x: -26.419352, y: -45.88576}
+        - {x: -28.838705, y: -55.56545}
+        - {x: -26.419352, y: -57.98537}
+        - {x: -28.838705, y: -62.825214}
+        - {x: -60.290318, y: -84.604515}
+      - - {x: 9.870973, y: -82.18459}
+        - {x: 19.548391, y: -72.504906}
+        - {x: 17.129038, y: -72.504906}
+        - {x: 21.967747, y: -79.76467}
+      - - {x: -60.290318, y: 84.79002}
+        - {x: -57.870964, y: 9.772444}
+        - {x: -60.290318, y: 7.3525214}
+      - - {x: 53.41936, y: 87.209946}
+        - {x: 55.838715, y: 84.79002}
+        - {x: 58.258068, y: 77.53026}
+        - {x: 60.677425, y: 79.95018}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_88
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1325
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -62.612915, y: -50.725605}
+        - {x: -65.03227, y: -60.405293}
+        - {x: -55.35485, y: -70.084984}
+        - {x: -45.677433, y: -70.084984}
+        - {x: -21.483883, y: -45.88576}
+        - {x: -19.064528, y: -41.045918}
+        - {x: -28.741947, y: -50.725605}
+        - {x: -28.741947, y: -55.56545}
+        - {x: -60.19356, y: -84.604515}
+      - - {x: 17.225796, y: -77.34475}
+        - {x: 26.903214, y: -87.02444}
+        - {x: 7.5483756, y: -84.604515}
+      - - {x: 58.354828, y: -19.26662}
+        - {x: 55.935474, y: -19.26662}
+        - {x: 58.354828, y: -26.526386}
+      - - {x: -60.19356, y: 84.79002}
+        - {x: -57.774208, y: 19.452131}
+        - {x: -57.774208, y: 9.772444}
+        - {x: -60.19356, y: 9.772444}
+        - {x: -62.612915, y: 7.3525214}
+        - {x: -60.19356, y: 7.3525214}
+      - - {x: 60.77418, y: 79.95018}
+        - {x: 55.935474, y: 84.79002}
+        - {x: 58.354828, y: 75.11034}
+        - {x: 60.77418, y: 77.53026}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_89
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1325
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -33.78615}
+        - {x: -67.35483, y: -57.98537}
+        - {x: -55.258057, y: -67.66506}
+        - {x: -47.999992, y: -67.66506}
+        - {x: -69, y: -87.02444}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 17.32259, y: -72.504906}
+        - {x: 14.9032345, y: -72.504906}
+        - {x: 22.161299, y: -82.18459}
+      - - {x: 56.03227, y: -24.106464}
+        - {x: 56.03227, y: -19.26662}
+        - {x: 58.451622, y: -31.36623}
+        - {x: 60.87098, y: -28.946308}
+      - - {x: 60.87098, y: 77.53026}
+        - {x: 56.03227, y: 84.79002}
+        - {x: 58.451622, y: 67.85057}
+        - {x: 60.87098, y: 70.27049}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1136
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 38.70968, y: -82.43073}
+        - {x: 60.48387, y: -50.97175}
+        - {x: 33.870968, y: -87.27058}
+        - {x: 36.29032, y: -87.27058}
+      - - {x: -60.48387, y: -9.833075}
+        - {x: -60.48387, y: -17.09284}
+        - {x: -43.54839, y: -34.032295}
+        - {x: -53.225807, y: -43.711983}
+        - {x: -55.64516, y: -50.97175}
+        - {x: -58.064518, y: -60.651436}
+        - {x: -58.064518, y: -67.9112}
+        - {x: -62.903225, y: -72.751045}
+        - {x: -60.48387, y: -77.59089}
+        - {x: -58.064518, y: -75.17097}
+      - - {x: 53.225807, y: 86.963806}
+        - {x: 58.064518, y: 84.543884}
+        - {x: 60.48387, y: 77.28412}
+        - {x: 62.903225, y: 79.70404}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_91
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1136
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: 19.205988}
+        - {x: -65.22581, y: 11.946223}
+        - {x: -65.22581, y: -7.4131527}
+        - {x: -62.80645, y: -14.672918}
+        - {x: -43.45161, y: -36.452217}
+        - {x: -55.548386, y: -48.551826}
+        - {x: -57.96774, y: -55.811592}
+        - {x: -57.96774, y: -67.9112}
+        - {x: -65.22581, y: -77.59089}
+        - {x: -62.80645, y: -87.27058}
+        - {x: -60.387096, y: -84.850655}
+      - - {x: 38.806454, y: -80.01081}
+        - {x: 41.22581, y: -70.33112}
+        - {x: 63.000004, y: -48.551826}
+        - {x: 60.580647, y: -38.87214}
+        - {x: 31.54839, y: -87.27058}
+        - {x: 33.967743, y: -87.27058}
+      - - {x: 17.03226, y: 86.963806}
+        - {x: 12.193551, y: 84.543884}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_92
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1136
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 38.903233, y: -77.59089}
+        - {x: 55.838715, y: -84.850655}
+        - {x: 31.645166, y: -87.27058}
+        - {x: 34.06452, y: -87.27058}
+      - - {x: -62.709675, y: -4.993231}
+        - {x: -65.12903, y: -9.833075}
+        - {x: -60.290318, y: -21.932684}
+        - {x: -43.354836, y: -36.452217}
+        - {x: -55.45161, y: -46.131905}
+        - {x: -57.870964, y: -53.39167}
+        - {x: -57.870964, y: -63.071358}
+        - {x: -65.12903, y: -75.17097}
+        - {x: -62.709675, y: -80.01081}
+        - {x: -60.290318, y: -77.59089}
+      - - {x: 51.000004, y: 89.38373}
+        - {x: 48.58065, y: 86.963806}
+        - {x: 58.258068, y: 82.12396}
+        - {x: 58.258068, y: 84.543884}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_93
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1136
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 46.258053, y: -72.751045}
+        - {x: 58.354828, y: -50.97175}
+        - {x: 55.935474, y: -84.850655}
+        - {x: 34.161278, y: -87.27058}
+      - - {x: -62.612915, y: -9.833075}
+        - {x: -62.612915, y: -46.131905}
+        - {x: -60.19356, y: -46.131905}
+      - - {x: 51.096764, y: 86.963806}
+        - {x: 55.935474, y: 84.543884}
+        - {x: 58.354828, y: 79.70404}
+        - {x: 58.354828, y: 82.12396}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_94
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1136
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: 86.963806}
+        - {x: 68.12904, y: 86.963806}
+        - {x: 69, y: 89.38373}
+        - {x: 69, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 947
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -58.064518, y: 84.29781}
+        - {x: -29.032259, y: 40.739216}
+        - {x: -43.54839, y: 16.539999}
+        - {x: -58.064518, y: -53.637737}
+      - - {x: 19.35484, y: 81.87789}
+        - {x: 14.5161295, y: 79.45797}
+        - {x: 9.67742, y: 84.29781}
+        - {x: 58.064518, y: 84.29781}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_96
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 947
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: 84.29781}
+        - {x: -41.032257, y: 62.518517}
+        - {x: -57.96774, y: -56.05766}
+        - {x: -60.387096, y: -85.096725}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_97
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 947
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.290318, y: 84.29781}
+        - {x: -45.77419, y: 74.618126}
+        - {x: -55.45161, y: -36.698284}
+        - {x: -57.870964, y: -60.897503}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_98
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 947
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.19356, y: 84.29781}
+        - {x: -43.258076, y: -12.499065}
+        - {x: -57.774208, y: -31.85844}
+        - {x: -57.774208, y: -51.217815}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_99
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 947
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: -94}
+        - {x: 69, y: -87.51665}
+        - {x: -69, y: -87.51665}
+        - {x: -69, y: -94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 758
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.81252}
+        - {x: 69, y: -93.81252}
+        - {x: 69, y: 94}
+      - - {x: -50.806454, y: -62.353535}
+        - {x: -26.612904, y: -86.55275}
+        - {x: -58.064518, y: -84.13283}
+      - - {x: -58.064518, y: 85.2617}
+        - {x: -50.806454, y: 41.70311}
+        - {x: -58.064518, y: 36.863266}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_101
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 758
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.81252}
+        - {x: 69, y: -93.81252}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: -47.834003}
+        - {x: -48.29032, y: -67.193375}
+        - {x: -26.516127, y: -86.55275}
+        - {x: -60.387096, y: -84.13283}
+      - - {x: -60.387096, y: 85.2617}
+        - {x: -60.387096, y: 39.283188}
+        - {x: -62.80645, y: 36.863266}
+        - {x: -60.387096, y: 36.863266}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_102
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 758
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.81252}
+        - {x: 69, y: -93.81252}
+        - {x: 69, y: 94}
+      - - {x: -60.290318, y: -42.99416}
+        - {x: -57.870964, y: -45.41408}
+        - {x: -57.870964, y: -50.253925}
+        - {x: -48.193546, y: -69.6133}
+        - {x: -31.25806, y: -86.55275}
+        - {x: -26.419352, y: -86.55275}
+        - {x: -60.290318, y: -84.13283}
+      - - {x: -60.290318, y: 85.2617}
+        - {x: 17.129038, y: 87.681625}
+        - {x: 14.709682, y: 90.10155}
+        - {x: 5.032263, y: 80.42186}
+        - {x: -4.645157, y: 80.42186}
+        - {x: -16.741932, y: 75.582016}
+        - {x: -50.6129, y: 51.382797}
+        - {x: -60.290318, y: 44.12303}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_103
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 758
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.81252}
+        - {x: 69, y: -93.81252}
+        - {x: 69, y: 94}
+      - - {x: -62.612915, y: -30.894548}
+        - {x: -62.612915, y: -38.154316}
+        - {x: -55.35485, y: -52.673847}
+        - {x: -55.35485, y: -57.51369}
+        - {x: -50.51614, y: -64.77345}
+      - - {x: -60.19356, y: 85.2617}
+        - {x: -52.935497, y: 41.70311}
+        - {x: -60.19356, y: 36.863266}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_104
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 758
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.81252}
+        - {x: 69, y: -93.81252}
+        - {x: 69, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 569
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -58.064518, y: -52.919952}
+        - {x: -33.870968, y: -79.53909}
+        - {x: -21.774195, y: -84.37894}
+        - {x: -58.064518, y: -84.37894}
+      - - {x: -36.29032, y: 7.578097}
+        - {x: -48.387096, y: 9.998019}
+        - {x: -58.064518, y: 0.3183311}
+        - {x: -58.064518, y: 85.0156}
+        - {x: -26.612904, y: 5.158175}
+        - {x: -19.35484, y: 0.3183311}
+        - {x: -26.612904, y: -6.941435}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_106
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 569
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: -48.08011}
+        - {x: -38.6129, y: -72.27933}
+        - {x: -21.677418, y: -81.959015}
+        - {x: -60.387096, y: -84.37894}
+      - - {x: -48.29032, y: 9.998019}
+        - {x: -60.387096, y: 85.0156}
+        - {x: 31.54839, y: 87.435524}
+        - {x: 26.70968, y: 82.59568}
+        - {x: 4.9354863, y: 85.0156}
+        - {x: -4.7419333, y: 87.435524}
+        - {x: -16.838707, y: 75.335915}
+        - {x: -28.935482, y: 68.07615}
+        - {x: -33.774193, y: 22.09763}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_107
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 569
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.290318, y: -50.50003}
+        - {x: -43.354836, y: -72.27933}
+        - {x: -26.419352, y: -84.37894}
+        - {x: -60.290318, y: -84.37894}
+      - - {x: -55.45161, y: 17.257784}
+        - {x: -60.290318, y: 85.0156}
+        - {x: -21.58064, y: 77.75584}
+        - {x: -40.93548, y: 46.29685}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_108
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 569
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -60.19356, y: -52.919952}
+        - {x: -33.580658, y: -77.11917}
+        - {x: -23.903238, y: -84.37894}
+        - {x: -60.19356, y: -84.37894}
+      - - {x: -45.677433, y: 9.998019}
+        - {x: -50.51614, y: 9.998019}
+        - {x: -60.19356, y: 0.3183311}
+        - {x: -60.19356, y: 85.0156}
+        - {x: 29.322569, y: 87.435524}
+        - {x: 24.48386, y: 82.59568}
+        - {x: 2.7096655, y: 85.0156}
+        - {x: -6.967754, y: 87.435524}
+        - {x: -16.645174, y: 77.75584}
+        - {x: -23.903238, y: 77.75584}
+        - {x: -38.41937, y: 36.61716}
+        - {x: -31.161303, y: 7.578097}
+        - {x: -21.483883, y: 0.3183311}
+        - {x: -28.741947, y: -6.941435}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_109
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 569
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: 87.435524}
+        - {x: 68.12904, y: 87.435524}
+        - {x: 69, y: 89.855446}
+        - {x: 69, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -38.70968, y: -60.425785}
+        - {x: -36.29032, y: -58.005863}
+        - {x: -38.70968, y: -58.005863}
+        - {x: -24.193548, y: -72.5254}
+        - {x: -19.35484, y: -72.5254}
+        - {x: -7.2580647, y: -62.845707}
+        - {x: 2.419355, y: -55.58594}
+        - {x: 4.83871, y: -43.486332}
+        - {x: 9.67742, y: -38.64649}
+        - {x: 7.2580647, y: -33.806644}
+        - {x: 2.419355, y: -41.06641}
+        - {x: 2.419355, y: -65.26563}
+        - {x: -4.83871, y: -77.36524}
+        - {x: -58.064518, y: -84.62501}
+      - - {x: 45.967743, y: -45.906254}
+        - {x: 58.064518, y: -48.326176}
+        - {x: 60.48387, y: -45.906254}
+        - {x: 58.064518, y: -43.486332}
+        - {x: 50.806454, y: -43.486332}
+        - {x: 43.54839, y: -45.906254}
+      - - {x: -58.064518, y: 84.76953}
+        - {x: 58.064518, y: 84.76953}
+        - {x: 60.48387, y: 62.990234}
+        - {x: 62.903225, y: 65.41016}
+        - {x: 50.806454, y: 79.92969}
+        - {x: 38.70968, y: 84.76953}
+        - {x: 26.612904, y: 84.76953}
+        - {x: 21.774195, y: 87.18945}
+        - {x: 19.35484, y: 84.76953}
+        - {x: 7.2580647, y: 84.76953}
+        - {x: 0, y: 79.92969}
+        - {x: -4.83871, y: 87.18945}
+        - {x: -12.096774, y: 89.609375}
+        - {x: -29.032259, y: 89.609375}
+        - {x: -38.70968, y: 82.34961}
+        - {x: -48.387096, y: 82.34961}
+        - {x: -58.064518, y: 43.630856}
+        - {x: -24.193548, y: 26.691404}
+        - {x: -12.096774, y: 29.111326}
+        - {x: -16.935484, y: 31.531248}
+        - {x: -24.193548, y: 24.271482}
+        - {x: -24.193548, y: 14.591794}
+        - {x: -21.774195, y: 7.3320284}
+        - {x: -43.54839, y: -12.027348}
+        - {x: -60.48387, y: -31.386723}
+        - {x: -58.064518, y: -31.386723}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_111
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 380
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: 4.9354863, y: -48.326176}
+        - {x: 7.354841, y: -38.64649}
+        - {x: 0.09677641, y: -48.326176}
+        - {x: 0.09677641, y: -58.005863}
+        - {x: -7.1612883, y: -79.785164}
+      - - {x: 38.806454, y: -43.486332}
+        - {x: 43.645164, y: -45.906254}
+        - {x: 55.74194, y: -48.326176}
+        - {x: 58.161293, y: -48.326176}
+        - {x: 58.161293, y: -41.06641}
+      - - {x: -60.387096, y: 84.76953}
+        - {x: 58.161293, y: 84.76953}
+        - {x: 60.580647, y: 62.990234}
+        - {x: 60.580647, y: 70.25}
+        - {x: 50.90323, y: 77.509766}
+        - {x: 38.806454, y: 84.76953}
+        - {x: 26.70968, y: 84.76953}
+        - {x: 21.87097, y: 87.18945}
+        - {x: 19.451616, y: 84.76953}
+        - {x: 4.9354863, y: 84.76953}
+        - {x: -2.3225784, y: 79.92969}
+        - {x: -7.1612883, y: 87.18945}
+        - {x: -14.419353, y: 89.609375}
+        - {x: -28.935482, y: 89.609375}
+        - {x: -50.709675, y: 70.25}
+        - {x: -60.387096, y: 65.41016}
+        - {x: -43.45161, y: 26.691404}
+        - {x: -26.516127, y: 26.691404}
+        - {x: -14.419353, y: 29.111326}
+        - {x: -16.838707, y: 31.531248}
+        - {x: -24.096773, y: 24.271482}
+        - {x: -24.096773, y: 12.171872}
+        - {x: -38.6129, y: -9.607426}
+        - {x: -62.80645, y: -33.806644}
+        - {x: -60.387096, y: -33.806644}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 380
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -7.064512, y: -60.425785}
+        - {x: 2.6129076, y: -50.746098}
+        - {x: 7.4516172, y: -38.64649}
+        - {x: 5.032263, y: -33.806644}
+        - {x: 0.19355282, y: -43.486332}
+        - {x: 0.19355282, y: -62.845707}
+        - {x: -7.064512, y: -77.36524}
+      - - {x: 41.322586, y: -43.486332}
+        - {x: 43.74194, y: -45.906254}
+        - {x: 55.838715, y: -48.326176}
+        - {x: 58.258068, y: -45.906254}
+        - {x: 58.258068, y: -43.486332}
+      - - {x: 55.838715, y: 84.76953}
+        - {x: 19.548391, y: 87.18945}
+        - {x: 17.129038, y: 84.76953}
+        - {x: 5.032263, y: 84.76953}
+        - {x: -2.225802, y: 79.92969}
+        - {x: -7.064512, y: 87.18945}
+        - {x: -14.3225765, y: 89.609375}
+        - {x: -28.838705, y: 89.609375}
+        - {x: -53.032253, y: 65.41016}
+        - {x: -53.032253, y: 50.890625}
+        - {x: -50.6129, y: 43.630856}
+        - {x: -43.354836, y: 36.37109}
+        - {x: -26.419352, y: 26.691404}
+        - {x: -14.3225765, y: 29.111326}
+        - {x: -19.161285, y: 31.531248}
+        - {x: -26.419352, y: 24.271482}
+        - {x: -28.838705, y: 17.011717}
+        - {x: -57.870964, y: -21.707035}
+        - {x: -55.45161, y: -24.126957}
+        - {x: -65.12903, y: -31.386723}
+        - {x: -60.290318, y: -33.806644}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_113
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 380
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -94}
+        - {x: 69, y: -94}
+        - {x: 69, y: 94}
+      - - {x: -40.838722, y: -60.425785}
+        - {x: -38.41937, y: -58.005863}
+        - {x: -40.838722, y: -58.005863}
+        - {x: -26.322594, y: -72.5254}
+        - {x: -21.483883, y: -72.5254}
+        - {x: -9.387109, y: -62.845707}
+        - {x: 0.29031077, y: -55.58594}
+        - {x: 2.7096655, y: -43.486332}
+        - {x: 2.7096655, y: -38.64649}
+        - {x: 0.29031077, y: -41.06641}
+        - {x: 0.29031077, y: -65.26563}
+        - {x: 2.7096655, y: -67.685555}
+        - {x: 2.7096655, y: -65.26563}
+        - {x: -6.967754, y: -72.5254}
+        - {x: -9.387109, y: -79.785164}
+        - {x: -60.19356, y: -84.62501}
+      - - {x: 43.8387, y: -45.906254}
+        - {x: 55.935474, y: -48.326176}
+        - {x: 58.354828, y: -45.906254}
+        - {x: 55.935474, y: -43.486332}
+        - {x: 48.67741, y: -43.486332}
+        - {x: 46.258053, y: -45.906254}
+        - {x: 41.419342, y: -45.906254}
+        - {x: 41.419342, y: -43.486332}
+      - - {x: -60.19356, y: 84.76953}
+        - {x: 55.935474, y: 84.76953}
+        - {x: 58.354828, y: 62.990234}
+        - {x: 60.77418, y: 65.41016}
+        - {x: 48.67741, y: 79.92969}
+        - {x: 36.580635, y: 84.76953}
+        - {x: 24.48386, y: 84.76953}
+        - {x: 19.64515, y: 87.18945}
+        - {x: 17.225796, y: 84.76953}
+        - {x: 5.1290207, y: 84.76953}
+        - {x: -4.548399, y: 82.34961}
+        - {x: -14.225819, y: 89.609375}
+        - {x: -31.161303, y: 89.609375}
+        - {x: -43.258076, y: 77.509766}
+        - {x: -55.35485, y: 70.25}
+        - {x: -55.35485, y: 46.050777}
+        - {x: -40.838722, y: 33.951168}
+        - {x: -26.322594, y: 26.691404}
+        - {x: -14.225819, y: 29.111326}
+        - {x: -19.064528, y: 31.531248}
+        - {x: -26.322594, y: 24.271482}
+        - {x: -26.322594, y: 14.591794}
+        - {x: -23.903238, y: 7.3320284}
+        - {x: -45.677433, y: -12.027348}
+        - {x: -62.612915, y: -31.386723}
+        - {x: -60.19356, y: -31.386723}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_114
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 380
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: -94}
+        - {x: 69, y: -87.04493}
+        - {x: -69, y: -87.04493}
+        - {x: -69, y: -94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.34082}
+        - {x: 69, y: -93.34082}
+        - {x: 69, y: 94}
+      - - {x: -55.64516, y: -8.643552}
+        - {x: -58.064518, y: -11.063474}
+        - {x: -58.064518, y: -28.002928}
+        - {x: -60.48387, y: -30.42285}
+        - {x: -62.903225, y: -49.782227}
+        - {x: -60.48387, y: -73.981445}
+        - {x: -58.064518, y: -71.56152}
+      - - {x: -58.064518, y: 88.15333}
+        - {x: -55.64516, y: 13.135746}
+        - {x: -60.48387, y: 8.295902}
+        - {x: -58.064518, y: 8.295902}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_116
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 191
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.34082}
+        - {x: 69, y: -93.34082}
+        - {x: 69, y: 94}
+      - - {x: -60.387096, y: 88.15333}
+        - {x: -57.96774, y: 17.97559}
+        - {x: -55.548386, y: 13.135746}
+        - {x: -65.22581, y: 3.456058}
+        - {x: -65.22581, y: -1.3837857}
+        - {x: -57.96774, y: -8.643552}
+        - {x: -60.387096, y: -18.32324}
+        - {x: -60.387096, y: -40.102535}
+        - {x: -62.80645, y: -42.522457}
+        - {x: -65.22581, y: -64.30176}
+        - {x: -62.80645, y: -76.40137}
+        - {x: -60.387096, y: -73.981445}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_117
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 191
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.34082}
+        - {x: 69, y: -93.34082}
+        - {x: 69, y: 94}
+      - - {x: -57.870964, y: -11.063474}
+        - {x: -60.290318, y: -13.483396}
+        - {x: -60.290318, y: -30.42285}
+        - {x: -62.709675, y: -32.84277}
+        - {x: -65.12903, y: -57.041992}
+        - {x: -62.709675, y: -73.981445}
+        - {x: -60.290318, y: -71.56152}
+      - - {x: -60.290318, y: 88.15333}
+        - {x: -60.290318, y: 15.555668}
+        - {x: -57.870964, y: 10.715824}
+        - {x: -62.709675, y: 8.295902}
+        - {x: -60.290318, y: 8.295902}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_118
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 191
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.34082}
+        - {x: 69, y: -93.34082}
+        - {x: 69, y: 94}
+      - - {x: -57.774208, y: -8.643552}
+        - {x: -60.19356, y: -11.063474}
+        - {x: -60.19356, y: -20.743162}
+        - {x: -62.612915, y: -23.163084}
+        - {x: -62.612915, y: -69.1416}
+        - {x: -60.19356, y: -69.1416}
+      - - {x: -14.225819, y: 80.89356}
+        - {x: -57.774208, y: 15.555668}
+        - {x: -57.774208, y: 13.135746}
+        - {x: -62.612915, y: 8.295902}
+        - {x: -60.19356, y: 8.295902}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_119
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 191
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.34082}
+        - {x: 69, y: -93.34082}
+        - {x: 69, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.586914}
+        - {x: 69, y: -93.586914}
+        - {x: 69, y: 94}
+      - - {x: -58.064518, y: 87.90723}
+        - {x: -4.83871, y: 90.32715}
+        - {x: -9.67742, y: 90.32715}
+        - {x: -16.935484, y: 83.06738}
+        - {x: -48.387096, y: 29.829103}
+        - {x: -45.967743, y: 15.309571}
+        - {x: -58.064518, y: -8.889648}
+      - - {x: 55.64516, y: 32.249023}
+        - {x: 58.064518, y: 34.668945}
+        - {x: 55.64516, y: 34.668945}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_121
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.586914}
+        - {x: 69, y: -93.586914}
+        - {x: 69, y: 94}
+      - - {x: -4.7419333, y: 90.32715}
+        - {x: -11.999998, y: 90.32715}
+        - {x: -16.838707, y: 83.06738}
+        - {x: -55.548386, y: 22.569338}
+      - - {x: 55.74194, y: 34.668945}
+        - {x: 58.161293, y: 37.088867}
+        - {x: 60.580647, y: 32.249023}
+        - {x: 58.161293, y: 34.668945}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_122
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.586914}
+        - {x: 69, y: -93.586914}
+        - {x: 69, y: 94}
+      - - {x: -4.645157, y: 90.32715}
+        - {x: -11.903221, y: 90.32715}
+        - {x: -16.741932, y: 83.06738}
+        - {x: -38.516125, y: 51.608402}
+        - {x: -55.45161, y: 15.309571}
+      - - {x: 53.41936, y: 32.249023}
+        - {x: 55.838715, y: 34.668945}
+        - {x: 53.41936, y: 34.668945}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_123
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.586914}
+        - {x: 69, y: -93.586914}
+        - {x: 69, y: 94}
+      - - {x: -6.967754, y: 90.32715}
+        - {x: -14.225819, y: 90.32715}
+        - {x: -19.064528, y: 83.06738}
+        - {x: -19.064528, y: 78.22754}
+        - {x: -52.935497, y: 29.829103}
+      - - {x: 53.516117, y: 34.668945}
+        - {x: 53.516117, y: 32.249023}
+        - {x: 58.354828, y: 37.088867}
+        - {x: 58.354828, y: 34.668945}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameCube - Super Smash Bros Melee - Character Select Portraits_124
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2
+        width: 138
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 94}
+        - {x: -69, y: -93.586914}
+        - {x: 69, y: -93.586914}
+        - {x: 69, y: 94}
+      - - {x: 53.61291, y: 34.668945}
+        - {x: 56.03227, y: 37.088867}
+        - {x: 58.451622, y: 32.249023}
+        - {x: 56.03227, y: 34.668945}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: Portait_
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,14 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Timer : MonoBehaviour {
+    Complete complete;
     public Text timer;
-
     float elapsedTime;
-    string timerFormatted;
+    public string timerFormatted;
 
-	void Update () {
-        CountUp();
-	}
+    private void Start()
+    {
+        complete = GetComponent<Complete>();
+    }
+
+    void Update () {
+        if(!complete.isComplete)
+        {
+            CountUp();
+        }
+    }
 
     public void CountUp()
     {
