@@ -245,7 +245,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300152, guid: cd39caa57fcdf1e4ca09655dd3b0588c, type: 3}
+  m_Sprite: {fileID: 21300010, guid: cd39caa57fcdf1e4ca09655dd3b0588c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 0
@@ -1518,7 +1518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -507.4, y: 500}
+  m_AnchoredPosition: {x: -507.4, y: 454}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &358327636
@@ -2494,7 +2494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 516.9, y: 500}
+  m_AnchoredPosition: {x: 516.9, y: 454.0001}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &867602429
@@ -3355,7 +3355,6 @@ MonoBehaviour:
   CompletePanel: {fileID: 808804265}
   player1: {fileID: 1328084611}
   player2: {fileID: 1061883066}
-  mixer: {fileID: 24100000, guid: d491f1f2ffff2964ebf25b3ea6aa31ff, type: 2}
   isComplete: 0
 --- !u!114 &1273709910
 MonoBehaviour:
