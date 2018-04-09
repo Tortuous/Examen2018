@@ -10,8 +10,7 @@ public class Controller2D : MonoBehaviour {
     public float wallJumpForce = 5f;
     public Animator animator;
     public Text score;
-
-    public List<GameObject> nearTarget = new List<GameObject> ();
+    
     static public int targetCount = 0;
     public int targetCount_;
 
@@ -21,14 +20,16 @@ public class Controller2D : MonoBehaviour {
     [SerializeField]
     string horizontalAxis;
     //[SerializeField]
-    //string verticalAxis = "J_MainVertical";
+    //string verticalAxis;
     [SerializeField]
     string attackAxis;
     [SerializeField]
     string shootAxis;
 
     // private vars
+    const float locoST = .1f;
     float InputX = 0f;
+    float InputY = 0f;
     float stickTimer = 0f;
     float exitWallTimer = 0f;
     float skinWidth = 0.03f;
@@ -37,16 +38,17 @@ public class Controller2D : MonoBehaviour {
     float wallDir = 0f;
 
     Vector3 faceDir;
-
     // private bools
-    bool canAttack = true;
+    bool canAttack;
+    bool canShoot;
+    bool allowAttack = true;
     bool huggingWall = false;
     bool isGrounded;
     bool doubleJumped = false;
     GameObject hitEnemy;
     GameObject hitEnemyShooting;
 
-    Vector3 movement;
+    public Vector3 movement;
     CharacterMotor motor;
 
     void Awake () {
@@ -54,14 +56,27 @@ public class Controller2D : MonoBehaviour {
         targetCount = 0;
     }
 
-    void Update() {
+    void Update()
+    {
+        animator.SetFloat("InputX", InputX, locoST, Time.deltaTime);
+        animator.SetBool("isGrounded", isGrounded);
+        animator.SetBool("Attacking", canAttack);
+        animator.SetBool("huggingWall", huggingWall);
+        animator.SetBool("Shooting", canShoot);
+
         targetCount_ = targetCount;
         score.text = targetCount.ToString(); // UI-element
-
         InputX = Input.GetAxisRaw(horizontalAxis);
+        InputY = Input.GetAxisRaw("J_MainHorizontal");
         motor.SetVelocity(movement * speed * Time.deltaTime);
-        isGrounded = motor.Grounded();
         movement = new Vector2(InputX, 0);
+        isGrounded = motor.Grounded();
+
+        if (allowAttack)
+        {
+            canAttack = Input.GetButton(attackAxis);
+            canShoot = Input.GetButton(shootAxis);
+        }
 
         if (movement.x != 0)
         {
@@ -76,16 +91,17 @@ public class Controller2D : MonoBehaviour {
         if(hitEnemyShooting != null)
             Debug.Log(hitEnemyShooting.name + " shoot can see this");
 
-        if (Input.GetButtonDown (jumpAxis)) {
+        if (Input.GetButtonDown (jumpAxis))
+        {
             Jumpy();
             stickTimer = 0f;
             exitWallTimer = 0f;
             huggingWall = false;
         }
 
-        if (Input.GetButtonDown (attackAxis)) {
+        if (Input.GetButtonDown (attackAxis))
+        {
             Attack();
-            canAttack = false;
         }
 
         if (Input.GetButtonDown(shootAxis))
@@ -98,35 +114,43 @@ public class Controller2D : MonoBehaviour {
 
         bool hitWall = motor.CheckObstacle (movement, skinWidth);
 
-        if (hitWall) {
+        if (hitWall)
+        {
             wallDir = Mathf.Sign (movement.x);
             huggingWall = true;
             exitWallTimer = 0f;
-        } else if (wallDir == ((movement.x == 0) ? 0 : -Mathf.Sign (movement.x))) {
+        } else if (wallDir == ((movement.x == 0) ? 0 : -Mathf.Sign (movement.x)))
+        {
             exitWallTimer += Time.deltaTime;
-            if (exitWallTimer > 0.4f) {
+            if (exitWallTimer > 0.4f)
+            {
                 huggingWall = false;
                 exitWallTimer = 0f;
             }
-        } else {
+        } else
+        {
             exitWallTimer = 0f;
         }
 
-        if (huggingWall) {
+        if (huggingWall)
+        {
             stickTimer += Time.deltaTime;
             if (stickTimer > .6f) {
                 huggingWall = false;
             }
         }
     }
-    void Jumpy () {
-        if (isGrounded || !doubleJumped) {
+    void Jumpy ()
+    {
+        if (isGrounded || !doubleJumped)
+        {
             print (transform.name + " is jumping!");
             motor.ResetPhysics ();
             motor.ApplyForce (new Vector2 (0, jumpForce));
             doubleJumped = !isGrounded;
         }
-        else if (huggingWall && wallDir == ((movement.x == 0) ? 0 : -Mathf.Sign (movement.x))) {
+        else if (huggingWall && wallDir == ((movement.x == 0) ? 0 : -Mathf.Sign (movement.x)))
+        {
             motor.ResetPhysics ();
             motor.ApplyForce (new Vector2 (-wallDir * wallJumpForce, jumpForce));
             huggingWall = false;
@@ -142,9 +166,8 @@ public class Controller2D : MonoBehaviour {
                 Debug.Log("Has attacked");
                 hitEnemy.SetActive(false);
                 targetCount++;
-                canAttack = false;
+                allowAttack = false;
                 StartCoroutine(ResetAttack());
-
             }
             StartCoroutine(ResetAttack());
         }
@@ -154,20 +177,21 @@ public class Controller2D : MonoBehaviour {
     {
         if(hitEnemyShooting != null)
         {
-            if (!huggingWall && canAttack && hitEnemyShooting.transform.gameObject.layer == LayerMask.NameToLayer("EnemyLayer"))
+            if (!huggingWall && allowAttack && hitEnemyShooting.transform.gameObject.layer == LayerMask.NameToLayer("EnemyLayer"))
             {
                 Debug.Log("Shot has hit");
                 hitEnemyShooting.SetActive(false);
                 targetCount++;
-                canAttack = false;
+                allowAttack = false;
                 StartCoroutine(ResetAttack());
             }
             StartCoroutine(ResetAttack());
         }
     }
 
-    IEnumerator ResetAttack () {
+    IEnumerator ResetAttack ()
+    {
         yield return new WaitForSeconds (.4f);
-        canAttack = true;
+        allowAttack = true;
     }
 }

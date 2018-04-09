@@ -13,13 +13,11 @@ public class Complete : MonoBehaviour {
 
     public bool isComplete;
     
-	// Use this for initialization
 	void Start () {
         timer = GetComponent<Timer>();
         endTimeText = CompletePanel.GetComponentInChildren<Text>();
     }
 	
-	// Update is called once per frame
 	void Update ()
     {
         if (player1.GetComponent<Controller2D>().targetCount_ >= 10)
