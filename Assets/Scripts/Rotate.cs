@@ -5,6 +5,6 @@ public class Rotate : MonoBehaviour {
 
     void Update()
     {
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement.movement), 0.05F);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement.movement), 1f);
     }
 }

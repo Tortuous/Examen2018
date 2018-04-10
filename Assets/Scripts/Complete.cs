@@ -7,13 +7,17 @@ public class Complete : MonoBehaviour {
     public GameObject CompletePanel;
     public GameObject player1;
     public GameObject player2;
-    
+    public AudioSource eaux;
+    public AudioClip claps;
+
     Timer timer;
     Text endTimeText;
+    int audioPlayAmount = 1;
 
     public bool isComplete;
     
 	void Start () {
+        audioPlayAmount = 1;
         timer = GetComponent<Timer>();
         endTimeText = CompletePanel.GetComponentInChildren<Text>();
     }
@@ -33,6 +37,12 @@ public class Complete : MonoBehaviour {
 
     IEnumerator BackToMain()
     {
+        if(audioPlayAmount == 1)
+        {
+            eaux.clip = claps;
+            eaux.Play();
+            audioPlayAmount--;
+        }
         yield return new WaitForSeconds(5f);
         player1.GetComponent<Controller2D>().targetCount_ = 0;
         SceneManager.LoadScene("titlescreen");

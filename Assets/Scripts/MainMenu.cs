@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour {
     public List<Button> buttons;
     public GameObject mainmenuPanel;
     public GameObject optionmenuPanel;
+    public GameObject characterPanel;
+    public AudioSource menuAudio;
+
+    public AudioClip menuOk;
+    public AudioClip menuBack;
 
     static string game = "smashminigame";
 
@@ -43,28 +48,49 @@ public class MainMenu : MonoBehaviour {
     }
     public void OnMouseClick(int i)
     {
+
         Debug.Log("Clicked");
-        if (i == 0)
+        if (i == 0) // starts game
         {
+            menuAudio.clip = menuOk;
+            menuAudio.Play();
             PlayerPrefs.SetFloat("volume", volume);
             SceneManager.LoadScene(game);
         }
-        else if (i == 1)
+        else if (i == 1) // optionmenu
         {
+            menuAudio.clip = menuOk;
+            menuAudio.Play();
             optionmenuPanel.SetActive(true);
             mainmenuPanel.SetActive(false);
+            characterPanel.SetActive(false);
         }
-        else if(i == 2)
+        else if(i == 2) // quit 
         {
+            menuAudio.clip = menuBack;
+            menuAudio.Play();
             Application.Quit();
         }
-        else if(i == 3)
+        else if(i == 3) //mainmenu
         {
+            menuAudio.clip = menuBack;
+            menuAudio.Play();
             mainmenuPanel.SetActive(true);
             optionmenuPanel.SetActive(false);
+            characterPanel.SetActive(false);
         }
-        else if(i == 7)
+        else if(i == 4) //charactermenu
         {
+            menuAudio.clip = menuOk;
+            menuAudio.Play();
+            mainmenuPanel.SetActive(false);
+            characterPanel.SetActive(true);
+            optionmenuPanel.SetActive(false);
+        }
+        else if(i == 7) //mutessound
+        {
+            menuAudio.clip = menuOk;
+            menuAudio.Play();
             Debug.Log("mute sound add this ");
         }
     }

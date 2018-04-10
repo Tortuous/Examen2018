@@ -2,15 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Controller2D : MonoBehaviour {
+#region vars
     // public vars
     public float speed = 400f;
     public float jumpForce = 30f;
+    public float dashForce = 20f;
     public float wallJumpForce = 5f;
+    float projectileSpeed = 10f;
     public Animator animator;
     public Text score;
-    
+    public Rigidbody2D prefab;
+    Vector3 projectileSpawn = new Vector3(0,0.9f,0);
+
+    public AudioClip attackClip;
+    public AudioClip shootHitClip;
+    public AudioClip shootClip;
+
     static public int targetCount = 0;
     public int targetCount_;
 
@@ -25,6 +35,10 @@ public class Controller2D : MonoBehaviour {
     string attackAxis;
     [SerializeField]
     string shootAxis;
+    [SerializeField]
+    string left1Axis;
+    [SerializeField]
+    string right1Axis;
 
     // private vars
     const float locoST = .1f;
@@ -47,12 +61,16 @@ public class Controller2D : MonoBehaviour {
     bool doubleJumped = false;
     GameObject hitEnemy;
     GameObject hitEnemyShooting;
-
-    public Vector3 movement;
     CharacterMotor motor;
+    AudioSource aSource;
+    public Vector3 movement;
 
+    #endregion
     void Awake () {
-        motor = GetComponent<CharacterMotor> ();
+        motor = GetComponent<CharacterMotor>();
+        aSource = GetComponent<AudioSource>();
+        aSource.playOnAwake = false;
+        aSource.clip = attackClip;
         targetCount = 0;
     }
 
@@ -99,6 +117,7 @@ public class Controller2D : MonoBehaviour {
             huggingWall = false;
         }
 
+#region buttonpresses
         if (Input.GetButtonDown (attackAxis))
         {
             Attack();
@@ -109,8 +128,21 @@ public class Controller2D : MonoBehaviour {
             Shoot();
         }
 
-        motor.FreezeXAxis (huggingWall);
-        motor.FreezeYAxis (huggingWall);
+        if (Input.GetButtonDown(left1Axis))
+        {
+            DashLeft();
+        }
+
+        if (Input.GetButtonDown(right1Axis))
+        {
+            DashRight();
+        }
+#endregion
+        if(!motor.CheckLayerObstacle(faceDir, attackwidth, 1 << LayerMask.NameToLayer("Bounds")))
+        {
+            motor.FreezeXAxis(huggingWall);
+            motor.FreezeYAxis(huggingWall);
+        }
 
         bool hitWall = motor.CheckObstacle (movement, skinWidth);
 
@@ -122,7 +154,7 @@ public class Controller2D : MonoBehaviour {
         } else if (wallDir == ((movement.x == 0) ? 0 : -Mathf.Sign (movement.x)))
         {
             exitWallTimer += Time.deltaTime;
-            if (exitWallTimer > 0.4f)
+            if (exitWallTimer > 1.0f)
             {
                 huggingWall = false;
                 exitWallTimer = 0f;
@@ -140,6 +172,8 @@ public class Controller2D : MonoBehaviour {
             }
         }
     }
+
+#region Functies
     void Jumpy ()
     {
         if (isGrounded || !doubleJumped)
@@ -157,6 +191,18 @@ public class Controller2D : MonoBehaviour {
         }
     }
 
+    void DashRight()
+    {
+        motor.ResetPhysics();
+        motor.ApplyForce(new Vector2(dashForce, 0));
+    }
+
+    void DashLeft()
+    {
+        motor.ResetPhysics();
+        motor.ApplyForce(new Vector2(-dashForce, 0));
+    }
+
     void Attack ()
     {
         if (hitEnemy != null)
@@ -165,6 +211,8 @@ public class Controller2D : MonoBehaviour {
             {
                 Debug.Log("Has attacked");
                 hitEnemy.SetActive(false);
+                aSource.clip = attackClip;
+                aSource.Play();
                 targetCount++;
                 allowAttack = false;
                 StartCoroutine(ResetAttack());
@@ -175,17 +223,38 @@ public class Controller2D : MonoBehaviour {
 
     void Shoot()
     {
-        if(hitEnemyShooting != null)
+        if (allowAttack)
         {
-            if (!huggingWall && allowAttack && hitEnemyShooting.transform.gameObject.layer == LayerMask.NameToLayer("EnemyLayer"))
+            Rigidbody2D projectile;
+            projectile = Instantiate(prefab, (projectileSpawn + faceDir) + transform.position, Quaternion.identity) as Rigidbody2D;
+            allowAttack = false;
+            aSource.clip = shootClip; //Shoot sound.
+            aSource.Play();
+            StartCoroutine(ResetAttack());
+
+            if (faceDir.x > 0)
             {
-                Debug.Log("Shot has hit");
-                hitEnemyShooting.SetActive(false);
-                targetCount++;
-                allowAttack = false;
+                projectile.AddRelativeForce(new Vector2(projectileSpeed, 0));
+            }
+            else
+            {
+                projectile.AddRelativeForce(new Vector2(-projectileSpeed, 0));
+            }
+
+            if (hitEnemyShooting != null)
+            {
+                if (!huggingWall && hitEnemyShooting.transform.gameObject.layer == LayerMask.NameToLayer("EnemyLayer"))
+                {
+                    Debug.Log("Shot has hit");
+                    aSource.clip = shootHitClip; //Shot hit sound.
+                    aSource.Play();
+                    hitEnemyShooting.SetActive(false);
+                    targetCount++;
+                    allowAttack = false;
+                    StartCoroutine(ResetAttack());
+                }
                 StartCoroutine(ResetAttack());
             }
-            StartCoroutine(ResetAttack());
         }
     }
 
@@ -194,4 +263,5 @@ public class Controller2D : MonoBehaviour {
         yield return new WaitForSeconds (.4f);
         allowAttack = true;
     }
+#endregion
 }

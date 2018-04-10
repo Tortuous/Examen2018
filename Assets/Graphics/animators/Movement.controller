@@ -13,37 +13,37 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: InputY
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isGrounded
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Attacking
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Shooting
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: huggingWall
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -155,7 +155,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.5808842
   m_TransitionOffset: 0
   m_ExitTime: 0.82830983
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -182,7 +182,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.75505924
   m_TransitionOffset: 0
   m_ExitTime: 0.77682966
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -665,7 +665,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Golf Drive
+  m_Name: Shoot
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -680,7 +680,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: dfe90a3496bbbe24fa268066c2191bc2, type: 3}
+  m_Motion: {fileID: 7400000, guid: 1e544ed5847aae240aae4540e6998802, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -768,22 +768,22 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102575140451426688}
-    m_Position: {x: 24, y: 180, z: 0}
+    m_Position: {x: 36, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102640429289204116}
     m_Position: {x: 36, y: 336, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102754945996367454}
-    m_Position: {x: -216, y: 252, z: 0}
+    m_Position: {x: -204, y: 336, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102680603373980168}
     m_Position: {x: -216, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102251834630527270}
-    m_Position: {x: 288, y: 240, z: 0}
+    m_Position: {x: 288, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102839801654769870}
-    m_Position: {x: 372, y: 372, z: 0}
+    m_Position: {x: 288, y: 336, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
